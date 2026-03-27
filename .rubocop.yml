@@ -1,0 +1,38 @@
+AllCops:
+  TargetRubyVersion: 3.0
+  NewCops: disable
+  Exclude:
+    - "bcdice/**/*"
+    - "config/**/*"
+    - "vendor/**/*"
+
+Metrics:
+  Exclude:
+    - "test/**/*"
+    - "lib/bcdice_wrap.rb"
+    - "lib/bcdice_api/controller/v1.rb"
+    - "lib/bcdice_api/controller/v2.rb"
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+Layout/LineLength:
+  Max: 100
