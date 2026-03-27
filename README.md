@@ -38,7 +38,8 @@ $ docker compose up -d
 ```
 
 4.Connection test
-Connect to http://localhost:9292/v2/version
+
+Connect to http:// [your server IP]:9292/v2/version
 Should shows msg like below:
 ```{"api":"3.0.0","bcdice":"3.16.1"}```
 
