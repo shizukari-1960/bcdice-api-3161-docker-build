@@ -1,0 +1,505 @@
+[[ test ]]
+game_system = "Insane:Korean"
+input = "ST"
+output = "장면표(2) ＞ 주위가 피 냄새로 가득하다. 사건인가? 사고인가? 혹시 그것은 지금도 계속되고 있는 걸까?"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "ST"
+output = "장면표(12) ＞ 밝은 빛을 받으며 안도의 한숨. 하지만 빛이 강할수록 그림자도 더 짙어진다……."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "HJST"
+output = "사실은 무서운 현대 일본 장면표(2) ＞ 갑자기 주위가 어두워진다. 정전인가? 어둠 속에서 누군가가 당신을 부르는 소리가 들려온다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "HJST"
+output = "사실은 무서운 현대 일본 장면표(12) ＞ 자다가 괴로워져서 눈을 뜬다. 뭔가 악몽을 꾼 것 같은데……. 어라, 의식은 있는데 몸이 안 움직여!"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "MTST"
+output = "광란의 20년대 장면표(2) ＞ 이끼가 낀 거대한 바위가 늘어선, 강 위의 섬. 뭘 모시고 있는지도 알 수 없는 제단이 있고, 형언하기 힘든 분위기가 감돈다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "MTST"
+output = "광란의 20년대 장면표(12) ＞ 조용한 실내. 왠지 불온한 기척이 느껴지는데……. 저건 뭐지? 창문에, 창문에!"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "DVST"
+output = "빅토리아의 어둠 장면표(2) ＞ 영매사를 중심으로 원탁을 둘러싼 사람들이 강령회를 한다. 어두운 방 안에 기괴한 엑토플라즘이 떠돌기 시작한다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "DVST"
+output = "빅토리아의 어둠 장면표(12) ＞ 고요한 호숫가. 풀숲에서는 야생 토끼가 뛰어다니고 있다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "DT"
+output = "형용표(11) ＞ 창백한"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "DT"
+output = "형용표(16) ＞ 이상하게 증식하는"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "DT"
+output = "형용표(66) ＞ 무지갯빛으로 빛나는"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "BT"
+output = "본체표(11) ＞ 인간"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "BT"
+output = "본체표(14) ＞ 유령"
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "BT"
+output = "본체표(66) ＞ 소인"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "PT"
+output = "부위표(11) ＞ 몸통"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "PT"
+output = "부위표(25) ＞ 꼬리"
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "PT"
+output = "부위표(66) ＞ 내장"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "FT"
+output = "감정표(1) ＞ 공감（플러스）／불신（마이너스）"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "FT"
+output = "감정표(6) ＞ 광신（플러스）／살의（마이너스）"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "JT"
+output = "직업표(11) ＞ 고고학자　≪풍경≫≪고고학≫"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "JT"
+output = "직업표(15) ＞ 호사가　≪예술≫≪인류학≫"
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "JT"
+output = "직업표(25) ＞ 학생　정서 분야와 지식 분야에서 아무거나 하나씩"
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "JT"
+output = "직업표(66) ＞ 경호원　폭력 분야에서 아무거나 둘"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "BET"
+output = "배드엔드표(2) ＞ 당신의 주위에 칠흑 같은 어둠이, 이형의 앞다리가, 무수한 촉수가 모여든다. 그들은 새로운 동료의 탄생을 축복하고 있다. 당신은 이제 괴이를 두려워하지 않는다. 왜냐하면, 당신 자신이 괴이가 되었기 때문이다. 이후, 당신은 괴이 NPC가 되어 등장한다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "BET"
+output = "배드엔드표(12) ＞ 뒤를 돌아보니 압도적인 「그것」이 기다리고 있었다. 무자비한 일격이 당신을 덮치고, 당신은 사망한다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "RTT"
+output = "랜덤 특기 결정표(1,2) ＞ 《소각／폭력2》"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "RTT"
+output = "랜덤 특기 결정표(6,12) ＞ 《우주／괴이12》"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "TVT"
+output = "지정특기(폭력)표(2) ＞ 《소각／폭력2》"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "TVT"
+output = "지정특기(폭력)표(12) ＞ 《매장／폭력12》"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "TET"
+output = "지정특기(정서)표(2) ＞ 《연심／정서2》"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "RTT2"
+output = "지정특기(정서)표(12) ＞ 《친애／정서12》"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "RTT3"
+output = "지정특기(지각)표(2) ＞ 《고통／지각2》"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "TPT"
+output = "지정특기(지각)표(12) ＞ 《그늘／지각12》"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "TST"
+output = "지정특기(기술)표(2) ＞ 《분해／기술2》"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "TST"
+output = "지정특기(기술)표(12) ＞ 《병기／기술12》"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "TKT"
+output = "지정특기(지식)표(2) ＞ 《물리학／지식2》"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "TKT"
+output = "지정특기(지식)표(12) ＞ 《천문학／지식12》"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "TMT"
+output = "지정특기(괴이)표(2) ＞ 《시간／괴이2》"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "TMT"
+output = "지정특기(괴이)표(12) ＞ 《우주／괴이12》"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "RCT"
+output = "랜덤 분야표(2) ＞ 정서"
+rands = [
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "CHT"
+output = "회화 중에 생겨나는 공포표(1) ＞ 지정특기：죽음\n당신은 이야기를 나누다가 문득 상대의 어깨 너머를 본다.\n아무런 전조도 없이, 멀리 떨어진 건물의 옥상에서 여자가 뛰어내렸다.\n그녀는 소리를 지를 틈도 없이 빨려 들어가듯 지면으로 떨어진다. 거리가 있음에도 불구하고, 여자와 눈이 마주치고 말았다.\nーー그 이후, 여자의 얼굴이 뇌리에 달라붙어 떨어지지 않는다……."
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "CHT"
+output = "회화 중에 생겨나는 공포표(6) ＞ 지정특기：인류학\n당신은 이야기를 나누다가 시야에 위화감을 느끼고 눈을 깜빡인다.\n상대의 얼굴이, 이상해졌다.\n잡아 늘여서 휘저은 것처럼 그로테스크하게 찌그러졌다.\n깜짝 놀라서 다시 바라봤지만, 여전히 일그러져있다.\n상대는 전혀 눈치채지 못한 것 같다. 눈을 힘껏 감았다가 다시 보니 겨우 원래대로 돌아왔다.\n당신의 마음에 한 가지 의심이 생긴다. 눈앞의 상대는 정말로 인간일까?"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "VHT"
+output = "거리에서 마주치는 공포표(1) ＞ 지정특기：탈것\n끼이이ーー익!! 세찬 브레이크 소리, 그리고 둔탁한 소리가 들렸다.\n깜짝 놀라 돌아보니 멈춘 차와 그 앞에 쓰러진 사람이 보였다. 교통사고다!\n서둘러 달려가 피해자의 얼굴을 본 순간, 당신은 얼어붙었다.\n쓰러져 있는 것은, 당신이었다.\nーー어!? 놀라서 눈을 깜빡이자 길 위의 당신도, 차도 이미 없었다."
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "VHT"
+output = "거리에서 마주치는 공포표(6) ＞ 지정특기：웃음\n역에 도착하니 묘하게 혼잡했다. 인명사고로 전철이 멈춘 모양이다. 재수 없구먼. 그렇게 생각하던 참에 개표구 근처의 인파 속에서 전통복 차림의 여성이 빠른 걸음으로 당신 쪽으로 다가왔다.\n여성은 만면에 웃음을 띄고 있었다. 혼잣말을 하는 건지 입이 움직이고 있다.\n스쳐 지나가면서 여성의 목소리가 귀에 들렸다.\n「해냈다, 해냈어. 해냈다, 해냈어. 해냈다, 해냈어. 꼴 좋다.」\n어!? 놀라서 돌아보는 당신을 남겨두고, 여성은 인파 속으로 사라졌다."
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "IHT"
+output = "갑자기 찾아오는 공포표(1) ＞ 지정특기：놀람\n다다다다다! 갑작스러운 소리에 당신은 흠칫 놀라서 올려다본다. 천장 위에서 뭔가가 돌아다니고 있는 모양이다. 동물이라도 기어들어 왔나? 그런 것치고는 소리가 크다.\nーー마치 어린아이가 제멋대로 달려 다니는 듯한.\n소리는 한순간 멈췄다가, 곧 다시 들린다.\n쿵! 쿵! 쿵! 쿵!\n뜀박질 소리가 들리는 곳은 정확하게 당신의 머리 위다……."
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "IHT"
+output = "갑자기 찾아오는 공포표(6) ＞ 지정특기：지저\n잘 아는 장소에서 낯선 문을 발견했다.\n열어보니 아래로 내려가는 긴 계단이 어둠 속으로 이어져 있다.\n수상하게 여기며 내려가 보니…… 그곳은 지하실이었다.\n이런 장소가 있었다니.\n조명을 한 손에 들고 들어가니 뭔가가 다가오는 기척이 느껴진다.\n어둠 속에서, 누군가가, 당신의 이름을 불렀다."
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "RHT"
+output = "폐허에서 마주치는 공포표(1) ＞ 지정특기：암흑\n무겁고 단단해 보이는 문을 연다.\n방 안은 어두웠다. 조명을 켜보니 다른 방으로 이어지는 길을 몇 개 찾았다.\n특별히 눈에 띄는 것도 없었다. 일단 입구로 돌아가려고 들어온 문 쪽을 돌아본다.\n거기에는 벽밖에 없었다. 그 중후한 문이 없어졌다.\n이런 말도 안 되는 일이…….\n하지만 아무리 찾아봐도 어느 벽에도 문 같은 것은 보이지 않는다.\n어쩔 수 없이 통로를 걷기로 했는데, 점점 불길한 기분이 치밀어 오른다.\n……그 문은, 열어서는 안 되는 것이 아니었을까?"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "RHT"
+output = "폐허에서 마주치는 공포표(6) ＞ 지정특기：약품\n갑자기 시너 냄새가 코를 찔렀다. 폐허의 벽에 빨간 페인트로 끈적끈적한 문자가 적혀 있다.\n무슨 내용인지는 잘 모르겠지만 한결같은 악의와 증오를 그대로 칠해낸 듯한 터치에 오싹한 기분이 든다.\n그러다가 어떤 사실을 깨닫고, 당신은 소름이 돋았다.\n페인트가 아직 새것이다. ……방금 칠한 것처럼 새것이다."
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "MHT"
+output = "야외에서 마주치는 공포표(1) ＞ 지정특기：고통\n부ーーーーー웅.\n귓가에 날카로운 날갯소리가 들린다.\n본 적도 없는 새빨간 날벌레 떼가 날아왔다.\n부ーーーーー웅.\n날벌레를 쫓으려고 팔을 휘두른다.\n아얏!\n팔에서 무언가에 찔린 통증이 느껴진다.\n부ーーーーー웅.\n벌레들은 어딘가로 떠났다.\n순식간에 팔의 표면에서 기분 나쁜 물집이 우둘투둘 부어올랐다."
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "MHT"
+output = "야외에서 마주치는 공포표(6) ＞ 지정특기：소각\n타닥…… 타닥…….\n불이 타오르는 소리가 난다.\n빈터에서 모닥불이 타오르고 있었다. 곁에는 아무도 없다.\n훈훈한 기분에 멈춰 서서 나뭇가지로 모닥불을 휘젓는데, 불 속에서 발랄한 웃음소리가 들렸다.\n흠칫 놀란 당신의 발치를 고양이만 한 크기의 무언가가 스치고 지나간다.\n다시 모닥불을 바라보니, 그곳에는 그저 그을린 뼈들이 남아있을 뿐이었다."
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "LHT"
+output = "정보 속에 숨어있는 공포표(1) ＞ 지정특기：맛\n목이 말랐다.\n조사를 시작한 지 제법 시간이 지났다. 아무래도 너무 몰두한 모양이다.\n다시 화면을 보며 페트병의 물을 입에 머금는다. 그러자 입안에서 위화감이 퍼졌다.\n견디지 못하고 물을 뱉어냈더니 새까만 액체가 책상 위의 자료를 더럽혔다.\n입안에서 시궁창 같은 악취가 떠나지 않는다.\n다시 페트병의 물을 확인해보니 그냥 투명한 물인데……?"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "LHT"
+output = "정보 속에 숨어있는 공포표(6) ＞ 지정특기：역사\n표지에 없는 리포트를 발견했다.\n훌훌 넘겨보니 바로 당신이 지금 조사하고 있는 건에 대한 조사 보고서였다.\n안타깝게도 이곳저곳이 검게 칠해져서 중요한 부분을 알 수 없다. 추측하건대 아무래도 군이 조사했던 모양이다.\n군대? 왜 군대가 이 일을 조사한 거지……?"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "2d6>=5"
+output = "(2D6>=5) ＞ 2[1,1] ＞ 2 ＞ 펌블(판정실패。 덱에서 【광기】를 1장 획득)"
+failure = true
+fumble = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "2d6>=5"
+output = "(2D6>=5) ＞ 12[6,6] ＞ 12 ＞ 스페셜(판정성공。 【생명력】 1점이나 【이성치】 1점 회복)"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "2d6>=5"
+output = "(2D6>=5) ＞ 4[1,3] ＞ 4 ＞ 실패"
+failure = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 3 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "2d6>=5"
+output = "(2D6>=5) ＞ 5[1,4] ＞ 5 ＞ 성공"
+success = true
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Insane:Korean"
+input = "2D6>=? 目標値?でバグらない"
+output = "(2D6>=?) ＞ 7[3,4] ＞ 7"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]

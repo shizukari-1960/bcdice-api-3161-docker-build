@@ -1,0 +1,208 @@
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "2d6>=4"
+output = "(2D6>=4) ＞ 6[2,4] ＞ 6 ＞ 성공"
+success = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "2d6>=9"
+output = "(2D6>=9) ＞ 3[1,2] ＞ 3 ＞ 실패"
+failure = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "2d6>=9"
+output = "(2D6>=9) ＞ 2[1,1] ＞ 2 ＞ 펌블! (드라마페이즈: 【디스코드】+2 / 라이브페이즈: 【컨디션】-2)"
+failure = true
+fumble = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "2d6>=9"
+output = "(2D6>=9) ＞ 12[6,6] ＞ 12 ＞ 스페셜! (【컨디션】+2)"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "VOT"
+output = "보컬 트러블표(P167)(4) ＞ 음정이 안 맞게 됐는데 다시 잘 부르지 못하겠어!"
+rands = [
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "GUT"
+output = "기타 트러블표(P169)(6) ＞ 피크가 날아가버렸어! 핑거링으로 칠 수밖에…!"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "BAT"
+output = "베이스 트러블표(P171)(2) ＞ 윽, 실드(앰프에 연결하는 실드 케이블)가 빠졌어! 소리가 안 나와!"
+rands = [
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "DRT"
+output = "드럼 트러블표(P175)(5) ＞ 템포가 빨라지기 시작했는데 멈출 수가 없어!"
+rands = [
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "KEYT"
+output = "키보드 트러블표(P173)(1) ＞ 손끝의 감각이 마비되기 시작했다. 안 움직여…!"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "EMO"
+output = "감정표(P183)(6) ＞ 애정/빚"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "SCENE"
+output = "장면표(P199)(3) ＞ 어디선가 말싸움을 하는 것 같은 소리가 들렸다. 싸움인가?"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "MACHI"
+output = "거리 장면표(P199)(5) ＞ 횡단보도에서 신호가 바뀌기를 기다리니 낯익은 인물의 모습을 발견했다."
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 3 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "GAKKO"
+output = "학교 장면표(P199)(12) ＞ 스피커에서 교내 방송이 울려퍼진다. 누군가를 부르는 것 같은데…?"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "BAND"
+output = "밴드 장면표(P199)(2) ＞ 인터넷에서 음악 전문 뉴스 사이트를 확인한다. 꽤 다양한 기사가 실려있다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "TENKAI"
+output = "장면 전개표(P201)(22) ＞ 심마 : 장면 플레이어는 나쁜 생각을 갖게 되어 스텝을 불합리하게 해결하려고 합니다. 【디스코드】 +1점."
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "TENKAI"
+output = "장면 전개표(P201)(36) ＞ 희망 : 장면 플레이어에게 스텝에 대한 긍정적인 노력을 할 의지가 생깁니다. 【컨디션】 +1점."
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "TENKAI"
+output = "장면 전개표(P201)(36) ＞ 희망 : 장면 플레이어에게 스텝에 대한 긍정적인 노력을 할 의지가 생깁니다. 【컨디션】 +1점."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 3 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "AT"
+output = "특기 리스트 ＞ [6,11] ＞ 《연애／역경11》"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "AT2"
+output = "특기 리스트(신체분야) ＞ [8] ＞ 《피／신체8》"
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "RTT"
+output = "특기 리스트 ＞ [6,11] ＞ 《연애／역경11》"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "RTT2"
+output = "특기 리스트(신체분야) ＞ [8] ＞ 《피／신체8》"
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 4 },
+]
+
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "RCT"
+output = "랜덤 분야표(5) ＞ 행동"
+rands = [
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "StratoShout:Korean"
+input = "2D6>=? 목표치를 달성하지 못했다"
+output = "(2D6>=?) ＞ 7[3,4] ＞ 7"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]

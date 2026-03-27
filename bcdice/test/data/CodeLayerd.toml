@@ -1,0 +1,305 @@
+[[ test ]]
+game_system = "CodeLayerd"
+input = "7CL>=6\tCodeLayerd"
+output = "7CL>=6 ＞ (7d10) ＞ [2,2,3,4,5,6,7] ＞ 達成値[6] ＞ 成功"
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+]
+success=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "7CL\tCodeLayerd"
+output = "7CL ＞ (7d10) ＞ [2,2,3,4,5,6,7] ＞ 達成値[6] ＞ 6"
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+]
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "7CL@5>=6\tCodeLayerd"
+output = "7CL@5>=6 ＞ (7d10) ＞ [2,2,3,4,5,6,7] ＞ 判定値[5] 達成値[5] ＞ 失敗"
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+]
+failure=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "(3+4)CL>=(3+3)\tCodeLayerd"
+output = "7CL>=6 ＞ (7d10) ＞ [2,2,3,4,5,6,7] ＞ 達成値[6] ＞ 成功"
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+]
+success=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "4CL>=5 クリティカル\tCodeLayerd"
+output = "4CL>=5 ＞ (4d10) ＞ [1,2,3,4] ＞ 達成値[4]+クリティカル[1]=[5] ＞ 成功"
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+]
+success=true
+critical=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "4CL>=5 ファンブル\tCodeLayerd"
+output = "4CL>=5 ＞ (4d10) ＞ [7,8,9,10] ＞ 達成値[0] ＞ ファンブル！"
+rands = [
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+]
+fumble=true
+failure=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "4CL>=5\tCodeLayerd"
+output = "4CL>=5 ＞ (4d10) ＞ [7,8,9,10] ＞ 達成値[0] ＞ ファンブル！"
+rands = [
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+]
+fumble=true
+failure=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "7CL+5>=6\tCodeLayerd"
+output = "7CL+5>=6 ＞ (7d10+5) ＞ [2,2,3,4,5,6,7]+5 ＞ 達成値[6]+5=[11] ＞ 成功"
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+]
+success=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "7CL-2\tCodeLayerd"
+output = "7CL-2 ＞ (7d10-2) ＞ [2,2,3,4,5,6,7]-2 ＞ 達成値[6]-2=[4] ＞ 4"
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+]
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "7CL+(1+2*3)@5>=6\tCodeLayerd"
+output = "7CL+7@5>=6 ＞ (7d10+7) ＞ [2,2,3,4,5,6,7]+7 ＞ 判定値[5] 達成値[5]+7=[12] ＞ 成功"
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+]
+success=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "7CL@5-(-1+3)\tCodeLayerd"
+output = "7CL@5-2 ＞ (7d10-2) ＞ [2,2,3,4,5,6,7]-2 ＞ 判定値[5] 達成値[5]-2=[3] ＞ 3"
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+]
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "7CL+1@5-(3+1)>=9\tCodeLayerd"
+output = "7CL+1@5-4>=9 ＞ (7d10-3) ＞ [2,2,3,4,5,6,7]-3 ＞ 判定値[5] 達成値[5]-3=[2] ＞ 失敗"
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+]
+failure=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "4CL+5>=5 クリティカル\tCodeLayerd"
+output = "4CL+5>=5 ＞ (4d10+5) ＞ [1,2,3,4]+5 ＞ 達成値[4]+クリティカル[1]+5=[10] ＞ 成功"
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+]
+success=true
+critical=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "4CL-5@6+5>=5\tCodeLayerd ファンブル"
+output = "4CL-5@6+5>=5 ＞ (4d10) ＞ [7,8,9,10] ＞ 達成値[0] ＞ ファンブル！"
+rands = [
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+]
+fumble=true
+failure=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "7CL+2@6-8\tCodeLayerd 達成値が0でもファンブルではない"
+output = "7CL+2@6-8 ＞ (7d10-6) ＞ [2,2,3,4,5,6,7]-6 ＞ 達成値[6]-6=[0] ＞ 0"
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+]
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "7CL-(6+1)\tCodeLayerd 達成値がマイナスでもファンブルではない"
+output = "7CL-7 ＞ (7d10-7) ＞ [2,2,3,4,5,6,7]-7 ＞ 達成値[6]-7=[-1] ＞ -1"
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+]
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "4CL+10\tCodeLayerd 固定値があっても成功ダイスが無いならファンブル"
+output = "4CL+10 ＞ (4d10+10) ＞ [7,8,9,10]+10 ＞ 達成値[0] ＞ ファンブル！"
+rands = [
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+]
+fumble=true
+failure=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "4CL[3]>=5 クリティカル\tCodeLayerd"
+output = "4CL[3]>=5 ＞ (4d10) ＞ [1,2,3,4] ＞ クリティカル値[3] 達成値[4]+クリティカル[3]=[7] ＞ 成功"
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+]
+success=true
+critical=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "7CL+2@6[2]-8\tCodeLayerd"
+output = "7CL+2@6[2]-8 ＞ (7d10-6) ＞ [1,2,3,4,5,6,7]-6 ＞ クリティカル値[2] 達成値[6]+クリティカル[2]-6=[2] ＞ 2"
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+]
+critical=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "0CL ダイス数が0以下になると1CL[0]相当"
+output = "0CL ＞ (1d10) ＞ [1] ＞ クリティカル値[0] 達成値[1] ＞ 1"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "(10-15)CL+5 ダイス数が0以下になると1CL[0]相当"
+output = "-5CL+5 ＞ (1d10+5) ＞ [8]+5 ＞ クリティカル値[0] 達成値[0] ＞ ファンブル！"
+rands = [
+  { sides = 10, value = 8 },
+]
+fumble=true
+failure=true
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "2d+5 デフォルト10面ダイス"
+output = "(2D10+5) ＞ 14[5,9]+5 ＞ 19"
+rands = [
+  { sides = 10, value = 5 },
+  { sides = 10, value = 9 },
+]
+
+[[ test ]]
+game_system = "CodeLayerd"
+input = "2d*5+2d6+1D 複雑な式"
+output = "(2D10*5+2D6+1D10) ＞ 12[8,4]*5+11[6,5]+4[4] ＞ 75"
+rands = [
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 6, value = 6 },
+  { sides = 6, value = 5 },
+  { sides = 10, value = 4 },
+]
+

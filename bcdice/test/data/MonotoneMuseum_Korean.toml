@@ -1,0 +1,409 @@
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "2D6>=7"
+output = "(2D6>=7) ＞ 7[2,5] ＞ 7 ＞ 성공"
+success = true
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "2D6+1>=7"
+output = "(2D6+1>=7) ＞ 5[1,4]+1 ＞ 6 ＞ 실패"
+failure = true
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "2D6>=7"
+output = "(2D6>=7) ＞ 12[6,6] ＞ 12 ＞ 자동성공"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "2D6>=7"
+output = "(2D6>=7) ＞ 2[1,1] ＞ 2 ＞ 자동실패"
+failure = true
+fumble = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "2D6+1>=5[11,3]"
+output = "(2D6+1>=5[11,3]) ＞ 6[2,4]+1 ＞ 7 ＞ 성공"
+success = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "2D6+1>=5[11,3]"
+output = "(2D6+1>=5[11,3]) ＞ 11[5,6]+1 ＞ 12 ＞ 자동성공"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "2D6+1>=5[11,3]"
+output = "(2D6+1>=5[11,3]) ＞ 3[1,2]+1 ＞ 4 ＞ 자동실패"
+failure = true
+fumble = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "2D6+1>=5[11]"
+output = "(2D6+1>=5[11]) ＞ 11[5,6]+1 ＞ 12 ＞ 자동성공"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "2D6+1>=5[,3]"
+output = "(2D6+1>=5[,3]) ＞ 3[1,2]+1 ＞ 4 ＞ 자동실패"
+failure = true
+fumble = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "2D6+1>=5[,3]"
+output = "(2D6+1>=5[,3]) ＞ 12[6,6]+1 ＞ 13 ＞ 자동성공"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "2D6+1>=5[7,7] ファンブル値優先"
+output = "(2D6+1>=5[7,7]) ＞ 7[2,5]+1 ＞ 8 ＞ 자동실패"
+failure = true
+fumble = true
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "3D6+1>=7"
+output = "(3D6+1>=7) ＞ 12[2,4,6]+1 ＞ 13 ＞ 자동성공"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 6 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "1D6>=2"
+output = "(1D6>=2) ＞ 2[2] ＞ 2 ＞ 자동실패"
+failure = true
+fumble = true
+rands = [
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "OT"
+output = "징조표(6) ＞ 【중압】\n당신은 배드스테이터스 [중압]을 받는다."
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 3 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "DT"
+output = "일그러짐표(2) ＞ 【세계 소실】\n연극의 무대가 모두 사라진다. 무대에 남아있는 것은 당신들과 이형, 가람뿐이다. 클라이막스 페이즈로."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "WDT"
+output = "세계왜곡표(2) ＞ 【소실】\n세계의 일그러짐이 보스캐릭터를 휘감아 그를 감싸고 허무에 인도한다. 세계에서 보스캐릭터는 소거되고 소멸한다. 엔딩페이즈로."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "ET"
+output = "감정표(22) ＞ 【위협(脅威)】"
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "ET"
+output = "감정표(11) ＞ 【신뢰(信頼)】"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "ET2"
+output = "감정표2.0(32) ＞ 【대여(貸し)】"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "ET2"
+output = "감정표2.0(12) ＞ 【동일시(同一視)】"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "DT2"
+output = "일그러짐표ver2.0(66) ＞ 【지역 소멸】\n공연의 무대인 지역 자체가 허무에 삼켜져 사라진다. 영향 아래 있는 모든 캐릭터(가람 포함)는 【재봉】 난이도 10 판정에 성공하면 탈출할 수 있다. 실패할 경우 즉석에서 사망한다. 엑스트라는 무조건 사망한다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "DT2"
+output = "일그러짐표ver2.0(32) ＞ 【시간가속】\n시간이 가속한다. 씬 내에 존재하는 여러 무생물과 생물은 2d6 년의 세월이 지난 것 처럼 행동한다. 생물이라면 노화한다. 실 잣는 이는 【재봉】 난이도 8의 판정에 성공하면 이 영향을 받지 않는다."
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "WDT2"
+output = "세계왜곡표ver2.0(32) ＞ 【폭우】\n무시무시한 비가 내린다. 비는 모든 사람의 마음을 얼어붙게 만든다. 이 씬 동안 「구분：총」인 무기를 사용한 경우 펌블치가 +6이 된다. 또한 다른 인게이지에 대한 물리공격의 달성치가 -2된다."
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "OT2"
+output = "징조표ver2.0(63) ＞ 【박탈의 전파】\n세계의 왜곡은 넓어지고 확장되어 누구도 도망칠 수 없다. 당신의 박탈치가 씬에 등장한 PC중에 가장 박탈치가 높은 PC와 같아진다. 만약 당신이 가장 높다면 가장 낮은 PC의 박탈치가 당신과 같아진다(여럿이 등장하고 있을 경우에는 랜덤으로 정할 것)."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 3 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "DTO"
+output = "일그러짐표(야외)(63) ＞ 【오염세계】\n물은 독을 품고, 대기는 유독성 안개로 가득하다. 등장하고 있는 모든 캐릭터는 【체력】난이도 10의 판정을 해서 실패할 경우 [중독] 5를 받는다. 엑스트라가 어떻게 될지는 GM이 정하지만 치료하지 않는 한 얼마 안 가 사망할 것이다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 3 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "DTS"
+output = "일그러짐표(바다)(56) ＞ 【술의 바다】\n바닷물이 술이 된다. 물을 마신 모든 것은 취해 이성을 잃는다. 그 모습이 마치 암흑기에 멸망한 「나태의 고도」를 연상시킨다."
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "EDT"
+output = "영구소실표(2) ＞ 【무자비한 현실】\n소망도 희망도 이뤄지지 않는다. 가람을 쓰러트리는 것, 그것이 당신의 최선의, 당신에게 허락된 행복이었다. 의식이, 허무에 삼켜져 사라진다...\n＞ 다이스의 추가롤은 불가능하다. 가람이 된다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "EDT"
+output = "영구소실표(12) ＞ 【기적의 일념】\n기적은 일어났다. 기도가 신에게 닿은 것일까 아니면 실잣는이의 집념일까. 아무것도 잃지 않은 채, 당신은 이 싸움을 계속하는 것을 용서받았다.\n＞ 대가 발생 없음"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "DTM"
+output = "일그러짐표(저택・성)(12) ＞ 【올풀림】\n세계는 금이 가고 올풀림이 출현한다. 올풀림에 닿은 자는 허무에 삼켜져 돌아올 수 없다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "DTM"
+output = "일그러짐표(저택・성)(65) ＞ 【염상(炎上)】\n저택이 불타오르기 시작한다. 이대로 머문다면 문답무용으로 죽을 것이다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "OT3"
+output = "징조표ver3.0(2) ＞ 【폭주충동】\n마음 속 깊은 곳에서부터 충동이 치솟는다. 눈 앞의 생명을 찢어버리고싶다ㅡ당신의 의지와 반대로 그 팔이 휘둘러진다. 지근거리에 있는 캐릭터 전원에게 즉시 <재봉> 2D6점의 대미지를 준다. 전투 중이 아닐 경우 어디까지를 지근으로 할지는 GM이 판단할것. 대미지를 줄 대상이 없는 경우 이 연극 중 당신의 행동치를 +1한다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "OT3"
+output = "징조표ver3.0(12) ＞ 【허무의 낙숫물】\n당신의 몸에서 칠흑의 땀이나 흐린 백색의 안개가 새어나온다. 이 공연중 [대상 : 자신]을 제외하고 당신이 한 특기의 대상 모두에게 원래 효과에 더해 사독1을 준다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "OT3"
+output = "징조표ver3.0(12) ＞ 【허무의 낙숫물】\n당신의 몸에서 칠흑의 땀이나 흐린 백색의 안개가 새어나온다. 이 공연중 [대상 : 자신]을 제외하고 당신이 한 특기의 대상 모두에게 원래 효과에 더해 사독1을 준다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "MET"
+output = "감정표(개정판)(11) ＞ 【동경】"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "MET"
+output = "감정표(개정판)(35) ＞ 【존경】"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "MBOT"
+output = "징조표(전투)(6) ＞ 【중압】\n온몸이 납덩이처럼 무거워진다. 신체와 영혼이 무릎을 꿇고 비명을 지르고 있다. 당신은 중압을 받는다."
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "MBOT"
+output = "징조표(전투)(8) ＞ 【사독】\n당신의 신체를, 마음을, 허무의 공허가 갉아먹는다. 그것은 피할 수 없는 파멸의 독이다. 당신은 사독 5를 받는다."
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "MNOT"
+output = "징조표(비전투)(10) ＞ 【짐승과 같이】\n칠흑의 짐승 털이나 흰 비늘이 당신의 손발을 침식해 간다. 주위에 숨기지 않으면, 괴물이라고 쫓기는 것은 피할 수 없을 것이다. 공연 중, 당신이 행하는 【사회】에 의한 판정의 달성치는 -2된다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "MNOT"
+output = "징조표(비전투)(6) ＞ 【빛바래는 체구】\n머리카락이, 눈이, 빛바래며 공허에 물들어간다. 당신에게서 이치가 벗겨지며 허무에 가까워지고 있다는 증거다…… 공연 중, 당신이 하는 【재봉】에 의한 판정의 달성치를 +1한다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "MDT"
+output = "왜곡표(개정판)(15) ＞ 【정경 변화】\n주위의 정경이 갑자기 비틀리며 변화한다. GM은 1D6을 ROC하여 변화를 결정할 것. 「1: 오싹한 풍양(풍요), 2: 타오르는 태양, 3: 시들어 떨어지는 초목, 4: 그치지 않는 폭설, 5: 지지 않는 태양, 6: 밝지 않는 밤」 급격한 변화는 자연과 농작물과 사람의 몸을 병들게 한다. 이로 인해 2차적인 재해가 일어난다고 해도 좋다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "MDT"
+output = "왜곡표(개정판)(62) ＞ 【이단심문】\n공포와 증오에 떠밀린 사람들이 흐려진 눈으로 “위협의 원흉”을 처형하자며 저마다 횃불을 든다. 씬에 등장하는 모든 PC는 【사회】 난이도 8의 판정을 행하여 실패하면 〈타격〉 [연기자 레벨]D6점의 대미지를 받는다. 이 효과는 왜곡을 떠맡지 않는 한 씬마다 발생한다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "MWDT"
+output = "세계왜곡표(개정판)(8) ＞ 【새겨진 자국】\n터져나온 올풀림은 주위에 깊은 균열을 새겼다. 그것은 사라지지 않는 왜곡의 발톱 자국이다. 무대가 되는 땅의 상징물이나 사람들이 일상을 보내기 위한 건조물이나 구획(자세한 것은 GM 판단)이 파괴된다. 이 변질은 위협을 배제한 후에도 회복되지 않고, 무대가 된 땅에는 무참한 자국이 계속 남아있게 될 것이다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "MonotoneMuseum:Korean"
+input = "MEDT"
+output = "영구소실표(개정판)(7) ＞ 【파트너 소실】\n소중한 누군가가 있었다. 사랑이든 증오든, 당신의 인생에 새겨진 둘도 없는 존재. 하지만 생각의 모든 것은 허무에 휩쓸려 사라져 버렸다. 설령 상대의 얼굴을 기억하고 있다고 해도, 가슴이 타는 기분은 더 이상 없다.\n＞ 당신의 고정화 되어 있는 파트너로부터 한 사람을 선택해 소실한다. 상실한 고정 파트너가 있는 경우에는 우선적으로 대가로 삼을 것."
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]

@@ -1,0 +1,281 @@
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "FS12"
+output = "1 => 3개, 2 => 2개, 3 => 1개, 4 => 3개, 5 => 1개, 6 => 2개"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 6 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "W3B3"
+output = "흰색6[1,2,3] 검은색15[4,5,6] ＞ 검은색9"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "W3B3"
+output = "흰색12[4,5,3] 검은색8[1,5,2] ＞ 흰색4"
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "W6"
+output = "흰색20[4,5,3,1,5,2] ＞ 흰색20"
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "B6"
+output = "검은색20[4,5,3,1,5,2] ＞ 검은색20"
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "W6B0"
+output = "흰색20[4,5,3,1,5,2] 검은색0[0] ＞ 흰색20"
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "B6W0"
+output = "검은색20[4,5,3,1,5,2] 흰색0[0] ＞ 검은색20"
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "B3W3"
+output = "검은색8[1,5,2] 흰색8[1,5,2] ＞ 0"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "W3W3"
+output = "W3W3：흰색 지정(W)은 중복될 수 없습니다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "B3B3"
+output = "B3B3：검은색 지정(B)은 중복될 수 없습니다."
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "SFS12"
+output = "1 => 3개, 2 => 2개, 3 => 1개, 4 => 3개, 5 => 1개, 6 => 2개"
+secret = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 6 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "SW3B3"
+output = "흰색6[1,2,3] 검은색15[4,5,6] ＞ 검은색9"
+secret = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "SW3B3"
+output = "흰색12[4,5,3] 검은색8[1,5,2] ＞ 흰색4"
+secret = true
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "SW6"
+output = "흰색20[4,5,3,1,5,2] ＞ 흰색20"
+secret = true
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "SB6"
+output = "검은색20[4,5,3,1,5,2] ＞ 검은색20"
+secret = true
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "SW6B0"
+output = "흰색20[4,5,3,1,5,2] 검은색0[0] ＞ 흰색20"
+secret = true
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "SB6W0"
+output = "검은색20[4,5,3,1,5,2] 흰색0[0] ＞ 검은색20"
+secret = true
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "SB3W3"
+output = "검은색8[1,5,2] 흰색8[1,5,2] ＞ 0"
+secret = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "SW3W3"
+output = "W3W3：흰색 지정(W)은 중복될 수 없습니다."
+secret = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Fiasco:Korean"
+input = "SB3B3"
+output = "B3B3：검은색 지정(B)은 중복될 수 없습니다."
+secret = true
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 2 },
+]

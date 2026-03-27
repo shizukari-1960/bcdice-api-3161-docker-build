@@ -1,0 +1,17 @@
+[[ test ]]
+game_system = "RoleMaster"
+input = "1d100>=10"
+output = "(1D100>=10) ＞ 65 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 65 },
+]
+
+[[ test ]]
+game_system = "RoleMaster"
+input = "1d100>=50"
+output = "(1D100>=50) ＞ 40 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 100, value = 40 },
+]

@@ -1,0 +1,426 @@
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO50"
+output = "D100<=50@10 ＞ 50 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 50 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO50"
+output = "D100<=50@10 ＞ 51 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 100, value = 51 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO50"
+output = "D100<=50@10 ＞ 95 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 100, value = 95 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO50"
+output = "D100<=50@10 ＞ 96 ＞ ファンブル"
+failure = true
+fumble = true
+rands = [
+  { sides = 100, value = 96 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO96"
+output = "D100<=96@19 ＞ 96 ＞ ファンブル"
+failure = true
+fumble = true
+rands = [
+  { sides = 100, value = 96 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO99"
+output = "D100<=99@19 ＞ 96 ＞ ファンブル"
+failure = true
+fumble = true
+rands = [
+  { sides = 100, value = 96 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO100"
+output = "D100<=100@20 ＞ 96 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 96 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO100"
+output = "D100<=100@20 ＞ 98 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 98 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO100"
+output = "D100<=100@20 ＞ 99 ＞ ファンブル"
+failure = true
+fumble = true
+rands = [
+  { sides = 100, value = 99 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO50"
+output = "D100<=50@10 ＞ 11 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 11 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO50"
+output = "D100<=50@10 ＞ 10 ＞ クリティカル"
+success = true
+critical = true
+rands = [
+  { sides = 100, value = 10 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO500"
+output = "D100<=500@100 ＞ 100 ＞ ファンブル"
+failure = true
+fumble = true
+rands = [
+  { sides = 100, value = 100 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO0"
+output = "D100<=0@1 ＞ 2 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 100, value = 2 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO0"
+output = "D100<=0@1 ＞ 1 ＞ クリティカル"
+success = true
+critical = true
+rands = [
+  { sides = 100, value = 1 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO50"
+output = "D100<=50@10 ＞ 11 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 11 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO50@11"
+output = "D100<=50@11 ＞ 11 ＞ クリティカル"
+success = true
+critical = true
+rands = [
+  { sides = 100, value = 11 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO50@11"
+output = "D100<=50@11 ＞ 12 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 12 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO50@5"
+output = "D100<=50@5 ＞ 10 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 10 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO50@5"
+output = "D100<=50@5 ＞ 5 ＞ クリティカル"
+success = true
+critical = true
+rands = [
+  { sides = 100, value = 5 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO100/2"
+output = "D100<=50@20 ＞ 50 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 50 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO100/2"
+output = "D100<=50@20 ＞ 51 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 100, value = 51 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO100/2"
+output = "D100<=50@20 ＞ 96 ＞ ファンブル"
+failure = true
+fumble = true
+rands = [
+  { sides = 100, value = 96 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO100/2"
+output = "D100<=50@20 ＞ 21 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 21 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO100/2"
+output = "D100<=50@20 ＞ 20 ＞ クリティカル"
+success = true
+critical = true
+rands = [
+  { sides = 100, value = 20 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO150/2"
+output = "D100<=75@30 ＞ 51 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 51 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO150/2"
+output = "D100<=75@30 ＞ 30 ＞ クリティカル"
+success = true
+critical = true
+rands = [
+  { sides = 100, value = 30 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO150/3"
+output = "D100<=50@30 ＞ 51 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 100, value = 51 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO179/3"
+output = "D100<=59@35 ＞ 60 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 100, value = 60 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO179/3"
+output = "D100<=59@35 ＞ 59 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 59 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO179/3"
+output = "D100<=59@35 ＞ 35 ＞ クリティカル"
+success = true
+critical = true
+rands = [
+  { sides = 100, value = 35 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO99/2"
+output = "D100<=49@19 ＞ 連続攻撃は成功率が50％以上必要です"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO(99/2)"
+output = "D100<=49@9 ＞ 10 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 10 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "dcSL1"
+output = "負傷表：切断[1] ＞ 軽傷1 ｜ 切り傷 … 皮膚が切り裂かれる。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "dcSL2"
+output = "負傷表：切断[2] ＞ 軽傷1 ｜ 切り傷 … 皮膚が切り裂かれる。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "dcSL5"
+output = "負傷表：切断[5] ＞ 軽傷1 ｜ 切り傷 … 皮膚が切り裂かれる。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "dcSL6"
+output = "負傷表：切断[6] ＞ 軽傷２／マヒ ｜ 脚部負傷 … 足が切り裂かれ、思わずひざまずく。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "dcBL1"
+output = "負傷表：銃弾[1] ＞ 軽傷２ ｜ 腕部損傷 … 銃弾が腕をかすめた。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "dcIM1"
+output = "負傷表：衝撃[1] ＞ 軽傷1 ｜ 打撲 … 攻撃を受けた箇所がどす黒く腫れ上がる。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "dcBR1"
+output = "負傷表：灼熱[1] ＞ 軽傷1 ｜ 火傷 … 皮膚に小さな火傷を負う。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "dcRF1"
+output = "負傷表：冷却[1] ＞ 軽傷1 ｜ 冷気 … 軽い凍傷を受ける。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "dcEL1"
+output = "負傷表：電撃[1] ＞ 疲労３ ｜ 静電気 … 全身の毛が逆立つ。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "seSL1"
+output = "負傷表(SE)：切断[1] ＞ スタン ｜ 軽い衝撃 … たいした傷ではないが、衝撃を受ける。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "seSL2"
+output = "負傷表(SE)：切断[2] ＞ スタン ｜ 軽い衝撃 … たいした傷ではないが、衝撃を受ける。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "seSL5"
+output = "負傷表(SE)：切断[5] ＞ スタン ｜ 軽い衝撃 … たいした傷ではないが、衝撃を受ける。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "seSL6"
+output = "負傷表(SE)：切断[6] ＞ 軽傷1 ｜ 小さな傷 … 外装に傷がつく。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "seBL1"
+output = "負傷表(SE)：銃弾[1] ＞ スタン ｜ 軽い衝撃 … 銃弾ははじいたが、衝撃を受ける。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "seIM1"
+output = "負傷表(SE)：衝撃[1] ＞ スタン ｜ 軽い衝撃 … 傷も凹みもないが、衝撃を受ける。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "seBR1"
+output = "負傷表(SE)：灼熱[1] ＞ スタン ｜ 軽い溶解 … 外装が少しだけ溶け、機能が低下する。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "seRF1"
+output = "負傷表(SE)：冷却[1] ＞ スタン ｜ 軽い冷却 … 冷気で機能が低下する。"
+rands = []
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "seEL1"
+output = "負傷表(SE)：電撃[1] ＞ スタン ｜ 軽い電撃 … 電撃で機能が低下する。"
+rands = []
+
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO(20-20)"
+output = "D100<=0@1 ＞ 1 ＞ クリティカル"
+success = true
+critical = true
+rands = [
+  { sides = 100, value = 1 },
+]
+
+[[ test ]]
+game_system = "GardenOrder"
+input = "GO(20-50)"
+output = "D100<=0@1 ＞ 1 ＞ クリティカル"
+success = true
+critical = true
+rands = [
+  { sides = 100, value = 1 },
+]

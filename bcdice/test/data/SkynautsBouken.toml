@@ -1,0 +1,285 @@
+[[test]]
+game_system = "SkynautsBouken"
+input = "SN 判定：成功"
+output = "(2SN7#1) ＞ 7[2,5] ＞ 成功"
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 5 },
+]
+success=true
+
+[[test]]
+game_system = "SkynautsBouken"
+input = "4SN6 判定：失敗"
+output = "(4SN6#1) ＞ [3,1,1,1] ＞ 4[1,3] ＞ 失敗"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+failure=true
+
+[[test]]
+game_system = "SkynautsBouken"
+input = "3SN 判定：スペシャル"
+output = "(3SN7#1) ＞ [6,2,6] ＞ 12[6,6] ＞ スペシャル（【生命点】1D6回復）"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 6 },
+]
+success=true
+critical=true
+
+[[test]]
+game_system = "SkynautsBouken"
+input = "2SN 判定：ファンブル"
+output = "(2SN7#1) ＞ 2[1,1] ＞ ファンブル（ファンブル表FT）"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+failure=true
+fumble=true
+
+[[test]]
+game_system = "SkynautsBouken"
+input = "3SN8#3 判定：ファンブル優先"
+output = "(3SN8#3) ＞ [1,3,3] ＞ 6[3,3] ＞ ファンブル（ファンブル表FT）"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 3 },
+]
+failure=true
+fumble=true
+
+[[test]]
+game_system = "SkynautsBouken"
+input = "SN7#6 判定：スペシャル優先"
+output = "(2SN7#6) ＞ 12[6,6] ＞ スペシャル（【生命点】1D6回復）"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+success=true
+critical=true
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "D19/2 ダメージチェック"
+output = "(D19/2) ＞ [縦,横]=[3,7][4,6][2,8],[1,6][2,5]([0,7])"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "D28[大揺れ]/1@8 ダメージチェック大揺れ"
+output = "(D28[大揺れ]/1@8) ＞ [縦,横]=[1,2][2,2]([0,2])\n ＞ 《弾道学》上 ＞ [縦,横]=([0,2])[1,2]([-1,2])"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "SN6#3/D[火災]/4 ダメージチェック"
+output = "(2SN6#3) ＞ 12[6,6] ＞ スペシャル（【生命点】1D6回復）\n ＞ (D[火災]/4) ＞ [縦,横]=[1,2],[2,4],[3,6],[4,8]"
+rands = [
+  { sides = 6, value = 6},
+  { sides = 6, value = 6},
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 4 },
+]
+success=true
+critical=true
+
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "3SN6#2/D/4@8 ダメージチェック"
+output = "(3SN6#2) ＞ [2,4,6] ＞ 10[4,6] ＞ 成功\n ＞ (D/4@8) ＞ [縦,横]=[1,2],[2,4],[3,6],[4,8]\n ＞ 《弾道学》上 ＞ [縦,横]=([0,2]),[1,4],[2,6],[3,8]"
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 6 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 4 },
+]
+success=true
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "3SN6#2/D/4@8 ダメージチェック"
+output = "(3SN6#2) ＞ [1,2,2] ＞ 4[2,2] ＞ ファンブル（ファンブル表FT）"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+  { sides = 6, value = 2 },
+]
+failure=true
+fumble=true
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "AVO@8[1,4],[2,6],[3,8] 回避運動"
+output = "《回避運動》上 ＞ ([0,4]),[1,6],[2,8]"
+rands = []
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "AVO@4[縦,横]=([1,13])([2,6])[3,8] 回避運動"
+output = "《回避運動》左 ＞ [縦,横]=[1,12][2,5][3,7]"
+rands = []
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "SN/AVO@4[縦,横]=([1,13])([2,6])[3,8] 回避運動"
+output = "(2SN7#1) ＞ 8[4,4] ＞ 成功\n ＞ 《回避運動》左 ＞ [縦,横]=[1,12][2,5][3,7]"
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 4 },
+]
+success=true
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "NV"
+output = "航海表(1) ＞ スポット1つ分進む"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "FT"
+output = "ファンブル表(6) ＞ 奇跡的な結果。 この行為判定は成功となる。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "NV"
+output = "航海表(1) ＞ スポット1つ分進む"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "NEN"
+output = "航行イベント表　航行系(2) ＞ フナ酔い\nバッドステータス。キミは次のクエストフェイズ終了時まで、【移動力】が「1点」低くなり、「ダッシュ」(p101)を行うことができない。\n　空の上で風に揺さぶられていると、まるで自分と世界が混ざったような感覚がするんだ。それを思い出すだけで……ウプッ。"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "NEN"
+output = "航行イベント表　航行系(12) ＞ 気流+2\n飛空艇コマを2スポット分進める。\n　うまい具合に気流に乗ることができれば、飛空艇はその性能以上の働きを見せてくれる。進路良好、この分なら、予定よりも早く目的地につくことができるだろう。"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "NEE"
+output = "航行イベント表　遭遇系(2) ＞ 風邪\nバッドステータス。キミは次のクエストフェイズ終了時まで、すべての[得意]な【能力】が[得意]でないもとして扱われる。\n　寒空の中見張りをしたのが悪かったのだろうか。 それとも食事？ せめて風邪を引くのなら、 旅立つ前にしておいてほしかったな。"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "NEE"
+output = "航行イベント表　遭遇系(12) ＞ うさこぷたー\nキミの【生命点】を「3点」回復する。\n　ふたつの耳を回転させて空を飛ぶうさぎのような浮遊生物が、ずっとこちらを見つめている。かわいいはかわいいのだが、こいつは一体なんなんだろう……。"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "NEO"
+output = "航行イベント表　船内系(2) ＞ 二日酔い\nバッドステータス。キミは次のクエストフェイズ終了時まで、すべての行為判定の【ファンブル値】が「1」高いものとして扱う。\n　仲間との楽しい時間、まだ見ぬ素晴らしい景色。空での旅路は、ビールを美味しくするものにあふれている。だからこれは、 空の旅で出くわす様々な危険のひとつだともいえるんだ。嵐や空賊みたいにさ。頭の痛い存在だよ。"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "NEO"
+output = "航行イベント表　船内系(12) ＞ パーティ\n船内マップ上にいるすべてのキャラクターは、それぞれ、任意のキャラクター1人を選ぶ。それぞれのキャラクターは、選んだキャラクターへの【キズナ】を獲得する。\n　この日ばっかりは仕事はよそう！ 樽いっぱいのビールに、船長秘蔵のワイン。テーブルの上にはとにかく、飲むものと、つまむものでいっぱいだ。"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "NEH"
+output = "航行イベント表　困難系(2) ＞ ケガ\nバッドステータス。キミは次のクエストフェイズ終了時まで、【生命点】の最大値が「5点」となる。すでに5点以上の【生命点】があった場合は、あわせて【生命点】が「5点」になる。\n　ケガのひとつやふたつが、旅を終える理由になるわけがない。だが、何をするにしてもキミの身に走る激痛は、確実にキミの行く手を阻むだろう。これまで通りの穏やかな旅路とはいかなくなるはずだ。"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "NEH"
+output = "航行イベント表　困難系(12) ＞ 低気圧の中心\nキミは「身体・感覚:9」の行為判定を行う。この判定に成功しない限り、飛空艇コマはフライトエリア上を移動することはできず、次のシーンの航行イベントも、自動的に「低気圧の中心」となる。行為判定に成功したかどうかにかかわらず、その後飛空艇は「D/4」のダメージを受ける。このダメージに《回避運動》のスキル効果を使用することはできない。\n　巨大な渦巻きのような雲。近づくだけでフネは引き寄せられ、一瞬でも舵をはなせば呑み込まれてしまう。その圧倒的な力はさながら、巨大な竜に襲われているかのようだ。"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "NEL"
+output = "航行イベント表　長旅系(2) ＞ フィーバー\nバッドステータス。キミは次のクエストフェイズ終了時まで、何らかの行為判定を行うたびに、【生命点】を「1点」減少させる。\n　一周回って、というやつさ。なんだか楽しくなってきてしまった。今なら何をやってもうまくいく気がするし、うまくいかなくても気にならない気がするんだ。"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "SkynautsBouken"
+input = "NEL"
+output = "航行イベント表　長旅系(12) ＞ 遭難\nこの航行イベントが発生した時点で、セッションは終了となる。お疲れ様。\n　その後、キミたちが再び『塔』へと戻ってくることはなかった。嵐にのまれたのだろうか、空賊や、浮遊生物に襲われたのだろうか。それを知る者は、もうどこにもいない。"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]

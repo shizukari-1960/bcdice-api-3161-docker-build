@@ -1,0 +1,74 @@
+
+[[ test ]]
+game_system = "Pendragon"
+input = "1D20<=10"
+output = "(1D20<=10) ＞ 20 ＞ ファンブル"
+failure = true
+fumble = true
+rands = [
+  { sides = 20, value = 20 },
+]
+
+[[ test ]]
+game_system = "Pendragon"
+input = "1D20<=10"
+output = "(1D20<=10) ＞ 19 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 20, value = 19 },
+]
+
+[[ test ]]
+game_system = "Pendragon"
+input = "1D20<=10"
+output = "(1D20<=10) ＞ 11 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 20, value = 11 },
+]
+
+[[ test ]]
+game_system = "Pendragon"
+input = "1D20<=10"
+output = "(1D20<=10) ＞ 10 ＞ クリティカル"
+success = true
+critical = true
+rands = [
+  { sides = 20, value = 10 },
+]
+
+[[ test ]]
+game_system = "Pendragon"
+input = "1D20<=10"
+output = "(1D20<=10) ＞ 9 ＞ 成功"
+success = true
+rands = [
+  { sides = 20, value = 9 },
+]
+
+[[ test ]]
+game_system = "Pendragon"
+input = "1D20<=30"
+output = "(1D20<=30) ＞ 10 ＞ クリティカル"
+success = true
+critical = true
+rands = [
+  { sides = 20, value = 10 },
+]
+
+[[ test ]]
+game_system = "Pendragon"
+input = "1D20<=30"
+output = "(1D20<=30) ＞ 9 ＞ 成功"
+success = true
+rands = [
+  { sides = 20, value = 9 },
+]
+
+[[ test ]]
+game_system = "Pendragon"
+input = "1D20>=? 目標値?でバグらない"
+output = "(1D20>=?) ＞ 10"
+rands = [
+  { sides = 20, value = 10 },
+]
