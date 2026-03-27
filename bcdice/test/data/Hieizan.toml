@@ -1,0 +1,128 @@
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=50"
+output = "(1D100<=50) ＞ 100 ＞ 大失敗"
+failure = true
+fumble = true
+rands = [
+  { sides = 100, value = 100 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=50"
+output = "(1D100<=50) ＞ 99 ＞ 自動失敗"
+failure = true
+rands = [
+  { sides = 100, value = 99 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=50"
+output = "(1D100<=50) ＞ 96 ＞ 自動失敗"
+failure = true
+rands = [
+  { sides = 100, value = 96 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=50"
+output = "(1D100<=50) ＞ 95 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 100, value = 95 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=50"
+output = "(1D100<=50) ＞ 50 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 50 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=50"
+output = "(1D100<=50) ＞ 11 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 11 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=50"
+output = "(1D100<=50) ＞ 10 ＞ 大成功"
+success = true
+critical = true
+rands = [
+  { sides = 100, value = 10 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=50"
+output = "(1D100<=50) ＞ 1 ＞ 大成功"
+success = true
+critical = true
+rands = [
+  { sides = 100, value = 1 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=100"
+output = "(1D100<=100) ＞ 100 ＞ 大失敗"
+failure = true
+fumble = true
+rands = [
+  { sides = 100, value = 100 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=100"
+output = "(1D100<=100) ＞ 96 ＞ 自動失敗"
+failure = true
+rands = [
+  { sides = 100, value = 96 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=100"
+output = "(1D100<=100) ＞ 95 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 95 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=2"
+output = "(1D100<=2) ＞ 2 ＞ 成功"
+success = true
+rands = [
+  { sides = 100, value = 2 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100<=2"
+output = "(1D100<=2) ＞ 1 ＞ 自動成功"
+success = true
+rands = [
+  { sides = 100, value = 1 },
+]
+
+[[ test ]]
+game_system = "Hieizan"
+input = "1D100>=? 目標値?でバグらない"
+output = "(1D100>=?) ＞ 42"
+rands = [
+  { sides = 100, value = 42 },
+]

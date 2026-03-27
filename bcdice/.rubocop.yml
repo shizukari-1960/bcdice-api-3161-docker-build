@@ -1,0 +1,149 @@
+inherit_from: .rubocop_todo.yml
+
+require:
+  ./rubocop/cop/bcdice/game_system_dependency.rb
+
+AllCops:
+  TargetRubyVersion: 2.7
+  NewCops: disable
+  Exclude:
+    - 'node_modules/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+    - '.git/**/*'
+    - lib/bcdice/arithmetic/parser.rb
+    - lib/bcdice/command/parser.rb
+    - lib/bcdice/common_command/add_dice/parser.rb
+    - lib/bcdice/common_command/barabara_dice/parser.rb
+    - lib/bcdice/common_command/tally_dice/parser.rb
+    - lib/bcdice/common_command/calc/parser.rb
+    - lib/bcdice/common_command/reroll_dice/parser.rb
+    - lib/bcdice/common_command/upper_dice/parser.rb
+    - lib/bcdice/game_system/sword_world/rating_parser.rb
+
+# Due to old Ruby 1.8.x
+Style/Lambda:
+  EnforcedStyle: lambda
+
+# Due to old Ruby 1.8.x
+Style/SpecialGlobalVars:
+  EnforcedStyle: use_perl_names
+
+Style/FormatStringToken:
+  Enabled: false
+
+# Due to Opal
+Style/SlicingWithRange:
+  Enabled: false
+
+Layout/EndOfLine:
+  EnforcedStyle: lf
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Lint/UnusedMethodArgument:
+  Exclude:
+    - example/Template.rb
+
+Lint/StructNewOverride:
+  Enabled: false
+
+Lint/MissingSuper:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/CaseLikeIf:
+  Enabled: false
+
+Style/CommentedKeyword:
+  Enabled: false
+
+Style/ConditionalAssignment:
+  Enabled: false
+
+Style/DefWithParentheses:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/NegatedWhile:
+  Enabled: false
+
+Style/NumericLiterals:
+  MinDigits: 6
+
+Style/WordArray:
+  Enabled: true
+  EnforcedStyle: brackets
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/HashLikeCase:
+  Exclude:
+    - 'lib/bcdice/game_system/**/*.rb'
+
+Style/IfInsideElse:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+
+Style/OptionalBooleanParameter:
+  Exclude:
+    - 'lib/bcdice/game_system/**/*.rb'
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false
+
+Style/StringConcatenation:
+  Exclude:
+    - 'lib/bcdice/game_system/**/*.rb'
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+  Exclude:
+    - 'lib/bcdice/game_system/*.rb'
+
+Style/SymbolProc:
+  Exclude:
+    - 'lib/bcdice/repl.rb' # DSLを実装しているため
+
+Style/SymbolArray:
+  Enabled: true
+  EnforcedStyle: brackets
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+
+Style/WhileUntilModifier:
+  Enabled: false
+
+Style/YodaCondition:
+  EnforcedStyle: forbid_for_equality_operators_only
+
+BCDice/GameSystemDependency:
+  Enabled: true

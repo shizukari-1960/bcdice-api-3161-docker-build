@@ -1,0 +1,2130 @@
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx"
+output = "(10DX10) ＞ 10[1,1,4,5,5,8,9,10,10,10]+6[4,5,6] ＞ 16"
+critical = true
+rands = [
+  { sides = 10, value = 10 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx"
+output = "(10DX10) ＞ 10[1,1,3,4,4,7,9,10,10,10]+10[2,5,10]+5[5] ＞ 25"
+critical = true
+rands = [
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx"
+output = "(10DX10) ＞ 10[3,4,4,4,5,5,8,9,10,10]+8[1,8] ＞ 18"
+critical = true
+rands = [
+  { sides = 10, value = 5 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx"
+output = "(10DX10) ＞ 10[1,1,4,4,7,7,8,8,10,10]+10[4,10]+2[2] ＞ 22"
+critical = true
+rands = [
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx"
+output = "(10DX10) ＞ 10[1,1,1,7,8,8,9,10,10,10]+10[4,4,10]+2[2] ＞ 22"
+critical = true
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx"
+output = "(10DX10) ＞ 10[2,3,3,4,5,5,5,5,6,10]+3[3] ＞ 13"
+critical = true
+rands = [
+  { sides = 10, value = 4 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx"
+output = "(10DX10) ＞ 10[1,5,5,5,5,6,6,7,8,10]+9[9] ＞ 19"
+critical = true
+rands = [
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx"
+output = "(10DX10) ＞ 10[1,1,4,5,7,7,8,8,9,10]+5[5] ＞ 15"
+critical = true
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx"
+output = "(10DX10) ＞ 10[3,3,4,4,4,6,8,9,10,10]+9[1,9] ＞ 19"
+critical = true
+rands = [
+  { sides = 10, value = 4 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx"
+output = "(10DX10) ＞ 9[1,2,3,4,6,6,7,8,8,9] ＞ 9"
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 9 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+5@8"
+output = "(10DX8+5) ＞ 10[2,3,6,6,6,6,7,8,10,10]+6[1,5,6]+5 ＞ 21"
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+5@8"
+output = "(10DX8+5) ＞ 10[1,1,1,2,3,3,7,7,8,9]+10[7,9]+4[4]+5 ＞ 29"
+critical = true
+rands = [
+  { sides = 10, value = 3 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 4 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+5@8"
+output = "(10DX8+5) ＞ 10[1,1,2,2,4,5,6,7,7,8]+10[10]+7[7]+5 ＞ 32"
+critical = true
+rands = [
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 7 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+5@8"
+output = "(10DX8+5) ＞ 10[2,2,3,4,5,6,7,8,9,9]+10[6,7,9]+10[8]+10[10]+3[3]+5 ＞ 48"
+critical = true
+rands = [
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 3 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+5@8"
+output = "(10DX8+5) ＞ 10[3,4,4,5,6,6,7,7,10,10]+10[5,10]+2[2]+5 ＞ 27"
+critical = true
+rands = [
+  { sides = 10, value = 6 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 2 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+5@8"
+output = "(10DX8+5) ＞ 10[2,2,2,2,4,5,7,7,8,9]+10[10,10]+10[8,9]+10[1,10]+5[5]+5 ＞ 50"
+critical = true
+rands = [
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+5@8"
+output = "(10DX8+5) ＞ 10[1,1,1,2,4,6,6,8,8,10]+10[4,9,9]+7[4,7]+5 ＞ 32"
+critical = true
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 7 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+5@8"
+output = "(10DX8+5) ＞ 10[1,1,2,4,4,5,5,8,10,10]+10[1,2,8]+10[8]+4[4]+5 ＞ 39"
+critical = true
+rands = [
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+5@8"
+output = "(10DX8+5) ＞ 10[1,2,2,2,2,4,5,6,7,8]+2[2]+5 ＞ 17"
+critical = true
+rands = [
+  { sides = 10, value = 5 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+5@8"
+output = "(10DX8+5) ＞ 10[1,3,4,4,4,5,7,8,9,10]+10[4,5,8]+4[4]+5 ＞ 29"
+critical = true
+rands = [
+  { sides = 10, value = 9 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 4 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3"
+output = "(5DX7+4) ＞ 10[5,6,6,7,8]+10[1,9]+5[5]+4 ＞ 29"
+critical = true
+rands = [
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3"
+output = "(5DX7+4) ＞ 10[2,2,9,10,10]+10[6,9,9]+6[3,6]+4 ＞ 30"
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3"
+output = "(5DX7+4) ＞ 10[3,4,5,5,9]+4[4]+4 ＞ 18"
+critical = true
+rands = [
+  { sides = 10, value = 5 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 4 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3"
+output = "(5DX7+4) ＞ 10[5,6,6,8,10]+10[3,9]+1[1]+4 ＞ 25"
+critical = true
+rands = [
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3"
+output = "(5DX7+4) ＞ 10[4,4,6,9,10]+3[3,3]+4 ＞ 17"
+critical = true
+rands = [
+  { sides = 10, value = 6 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 3 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3"
+output = "(5DX7+4) ＞ 6[2,4,5,5,6]+4 ＞ 10"
+rands = [
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3"
+output = "(5DX7+4) ＞ 10[1,1,2,6,7]+10[8]+10[7]+1[1]+4 ＞ 35"
+critical = true
+rands = [
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3"
+output = "(5DX7+4) ＞ 10[3,6,8,8,10]+10[2,5,9]+6[6]+4 ＞ 30"
+critical = true
+rands = [
+  { sides = 10, value = 10 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3"
+output = "(5DX7+4) ＞ 10[2,4,4,5,10]+4[4]+4 ＞ 18"
+critical = true
+rands = [
+  { sides = 10, value = 10 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 4 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3"
+output = "(5DX7+4) ＞ 10[2,3,3,4,10]+6[6]+4 ＞ 20"
+critical = true
+rands = [
+  { sides = 10, value = 3 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "7DX@2"
+output = "(7DX2) ＞ 10[1,2,5,5,5,10,10]+10[2,3,7,7,8,9]+10[1,2,2,3,4,8]+10[3,4,4,7,7]+10[2,5,7,7,8]+10[1,6,7,8,9]+10[1,2,3,8]+10[2,3,5]+10[5,6,8]+10[6,8,10]+10[1,5,9]+10[3,4]+10[1,5]+10[5]+10[9]+10[3]+10[10]+10[5]+10[7]+10[7]+10[6]+10[5]+10[7]+10[3]+1[1] ＞ 241"
+critical = true
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "7DX@2"
+output = "(7DX2) ＞ 10[1,3,3,4,6,8,9]+10[4,5,5,7,7,9]+10[2,2,6,8,9,10]+10[1,2,2,4,6,8]+10[1,3,3,7,8]+10[2,6,7,8]+10[2,2,8,9]+10[3,5,6,7]+10[1,5,5,9]+10[1,1,5]+10[9]+10[6]+10[2]+10[10]+10[6]+10[6]+10[4]+10[2]+10[4]+10[2]+10[3]+10[4]+10[8]+10[4]+10[4]+1[1] ＞ 251"
+critical = true
+rands = [
+  { sides = 10, value = 4 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "7DX@2"
+output = "(7DX2) ＞ 10[2,3,3,4,6,7,8]+10[1,1,2,3,3,6,10]+10[1,2,6,10,10]+10[1,7,7,9]+10[3,5,7]+10[1,6,10]+10[6,9]+10[8,8]+10[8,9]+10[1,10]+10[3]+10[7]+10[8]+10[9]+10[2]+10[4]+10[8]+10[3]+10[10]+10[2]+10[8]+10[9]+10[4]+10[7]+10[8]+1[1] ＞ 251"
+critical = true
+rands = [
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "7DX@2"
+output = "(7DX2) ＞ 10[2,3,5,7,9,9,10]+10[5,6,6,6,8,9,9]+10[2,2,6,7,7,7,10]+10[3,4,4,6,8,8,9]+10[3,6,6,7,7,8,9]+10[2,3,4,6,6,9,9]+10[2,3,3,5,5,5,5]+10[4,4,5,6,7,8,10]+10[1,1,3,3,4,5,6]+10[3,4,4,9,10]+10[2,4,4,7,10]+10[2,3,3,6,8]+10[3,4,7,8,8]+10[1,2,4,7,7]+10[1,2,3,10]+10[4,7,7]+10[2,3,7]+10[2,6,10]+10[1,2,10]+10[2,5]+10[4,8]+10[1,8]+10[3]+10[5]+1[1] ＞ 241"
+critical = true
+rands = [
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "7DX@2"
+output = "(7DX2) ＞ 10[3,4,5,6,6,9,10]+10[2,2,4,5,8,8,9]+10[1,2,3,8,8,9,10]+10[4,4,5,8,9,10]+10[5,6,6,9,9,10]+10[3,3,5,5,6,8]+10[1,2,7,9,10,10]+10[1,1,2,4,7]+10[4,6,7]+10[4,7,8]+10[5,7,9]+10[3,5,8]+10[1,9,10]+10[2,4]+10[1,9]+10[2]+10[4]+10[4]+10[6]+10[4]+10[9]+10[3]+1[1] ＞ 221"
+critical = true
+rands = [
+  { sides = 10, value = 10 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "7DX@2"
+output = "(7DX2) ＞ 10[1,1,5,5,6,7,7]+10[1,4,8,9,9]+10[1,2,6,10]+10[2,6,7]+10[2,6,6]+10[2,4,10]+10[3,8,10]+10[7,9,9]+10[1,4,5]+10[6,9]+10[4,6]+10[1,3]+10[10]+10[3]+10[2]+10[9]+10[10]+10[2]+10[8]+10[8]+10[6]+1[1] ＞ 211"
+critical = true
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "7DX@2"
+output = "(7DX2) ＞ 10[2,3,7,8,9,9,9]+10[2,3,3,4,4,8,10]+10[1,1,3,5,7,7,9]+10[1,2,4,6,8]+10[5,5,7,10]+10[2,2,5,6]+10[2,4,8,10]+10[1,3,6,10]+10[1,1,7]+1[1] ＞ 91"
+critical = true
+rands = [
+  { sides = 10, value = 9 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "7DX@2"
+output = "(7DX2) ＞ 10[1,3,4,4,5,5,10]+10[1,2,2,4,6,6]+10[2,6,7,8,9]+10[3,4,7,8,8]+10[1,2,5,8,9]+10[1,1,3,7]+10[4,7]+10[5,7]+10[5,9]+10[5,9]+10[1,5]+10[2]+10[8]+10[8]+10[3]+10[5]+10[6]+10[6]+10[2]+10[4]+10[10]+10[4]+10[4]+10[8]+10[7]+10[2]+10[4]+1[1] ＞ 271"
+critical = true
+rands = [
+  { sides = 10, value = 5 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "7DX@2"
+output = "(7DX2) ＞ 10[1,1,2,2,6,6,8]+10[1,3,6,7,8]+10[3,5,6,8]+10[5,7,8,10]+10[3,5,5,7]+10[2,6,7,9]+10[1,2,9,10]+10[2,7,8]+10[5,6,6]+10[2,4,4]+10[1,6,10]+10[5,7]+10[4,5]+10[7,9]+10[5,7]+10[5,6]+10[5,7]+10[1,10]+10[10]+10[3]+10[7]+10[3]+10[7]+10[7]+10[5]+10[10]+10[3]+10[2]+10[2]+10[9]+10[9]+10[2]+10[4]+10[6]+10[7]+10[5]+10[4]+10[5]+10[3]+10[2]+10[9]+10[7]+10[6]+10[10]+10[2]+10[2]+10[3]+10[3]+10[6]+10[9]+10[10]+10[6]+10[10]+10[2]+10[6]+10[4]+10[10]+10[5]+10[3]+10[3]+10[3]+10[5]+10[8]+10[3]+10[9]+10[8]+10[2]+10[7]+10[3]+10[9]+10[10]+10[2]+10[9]+10[6]+10[8]+10[7]+10[2]+10[9]+10[6]+10[8]+10[5]+10[6]+10[10]+10[3]+10[7]+10[6]+10[7]+10[10]+10[7]+10[2]+10[4]+10[8]+10[8]+10[3]+10[9]+10[8]+10[8]+10[10]+10[2]+10[5]+10[6]+10[5]+10[6]+10[10]+1[1] ＞ 1041"
+critical = true
+rands = [
+  { sides = 10, value = 6 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "7DX@2"
+output = "(7DX2) ＞ 10[1,2,3,4,5,6,9]+10[6,7,7,7,8,9]+10[1,2,4,5,6,10]+10[2,2,3,3,5]+10[2,3,5,9,10]+10[5,5,5,8,10]+10[1,1,2,6,8]+10[3,3,8]+10[3,5,10]+10[3,9,10]+10[2,3,7]+10[6,6,9]+10[2,2,6]+10[2,4,5]+10[3,3,5]+10[6,7,10]+10[3,5,6]+10[3,4,9]+10[2,5,6]+10[1,5,10]+10[5,6]+10[2,10]+10[2,6]+10[7,9]+10[9,10]+10[1,3]+10[4]+10[9]+10[2]+10[5]+10[2]+10[5]+10[7]+10[4]+10[5]+10[5]+1[1] ＞ 361"
+critical = true
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5"
+output = "(3DX5) ＞ 10[8,9,9]+10[2,8,10]+10[4,10]+3[3] ＞ 33"
+critical = true
+rands = [
+  { sides = 10, value = 9 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 3 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5"
+output = "(3DX5) ＞ 10[2,4,7]+10[10]+4[4] ＞ 24"
+critical = true
+rands = [
+  { sides = 10, value = 7 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 4 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5"
+output = "(3DX5) ＞ 10[1,3,5]+2[2] ＞ 12"
+critical = true
+rands = [
+  { sides = 10, value = 5 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 2 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5"
+output = "(3DX5) ＞ 10[2,3,6]+10[5]+10[6]+10[9]+1[1] ＞ 41"
+critical = true
+rands = [
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5"
+output = "(3DX5) ＞ 10[2,4,8]+10[6]+10[8]+10[10]+10[9]+1[1] ＞ 51"
+critical = true
+rands = [
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5"
+output = "(3DX5) ＞ 10[3,7,7]+10[2,10]+10[5]+10[5]+10[8]+3[3] ＞ 53"
+critical = true
+rands = [
+  { sides = 10, value = 7 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 3 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5"
+output = "(3DX5) ＞ 10[1,8,9]+10[8,9]+10[4,8]+10[6]+4[4] ＞ 44"
+critical = true
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 4 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 4 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5"
+output = "(3DX5) ＞ 10[2,9,10]+3[1,3] ＞ 13"
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5"
+output = "(3DX5) ＞ 10[6,6,9]+10[2,8,8]+4[1,4] ＞ 24"
+critical = true
+rands = [
+  { sides = 10, value = 9 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 2 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 4 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5"
+output = "(3DX5) ＞ 10[2,8,9]+10[3,6]+10[5]+10[6]+10[7]+10[5]+10[5]+10[6]+10[6]+10[8]+2[2] ＞ 102"
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 2 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5"
+output = "(3DX5) ＞ 1[1,1,1] ＞ 0 (펌블)"
+fumble = true
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX+1@5"
+output = "(3DX5+1) ＞ 1[1,1,1]+1 ＞ 0 (펌블)"
+fumble = true
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5>=12"
+output = "(3DX5>=12) ＞ 10[2,9,10]+3[1,3] ＞ 13 ＞ 성공"
+success = true
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5>=13"
+output = "(3DX5>=13) ＞ 10[2,9,10]+3[1,3] ＞ 13 ＞ 성공"
+success = true
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5>=14"
+output = "(3DX5>=14) ＞ 10[2,9,10]+3[1,3] ＞ 13 ＞ 실패"
+failure = true
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 3 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5>=14"
+output = "(3DX5>=14) ＞ 1[1,1,1] ＞ 0 (펌블) ＞ 실패"
+fumble = true
+failure = true
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX+1@5>=14"
+output = "(3DX5+1>=14) ＞ 1[1,1,1]+1 ＞ 0 (펌블) ＞ 실패"
+fumble = true
+failure = true
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "3DX@5>=0"
+output = "(3DX5>=0) ＞ 1[1,1,1] ＞ 0 (펌블) ＞ 실패"
+fumble = true
+failure = true
+rands = [
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "0DX@2"
+output = "(0DX2) ＞ 자동실패"
+failure = true
+rands = []
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "1DX@1"
+output = "(1DX1) ＞ 크리티컬치가 너무 낮습니다. 2 이상을 지정해주세요."
+rands = []
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "1DX@2"
+output = "(1DX2) ＞ 10[2]+1[1] ＞ 11"
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "1DX@9"
+output = "(1DX9) ＞ 10[10]+10[9]+8[8] ＞ 28"
+critical = true
+rands = [
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 8 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "1DX@10"
+output = "(1DX10) ＞ 10[10]+9[9] ＞ 19"
+critical = true
+rands = [
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "1DX"
+output = "(1DX10) ＞ 10[10]+9[9] ＞ 19"
+critical = true
+rands = [
+  { sides = 10, value = 10 },
+  { sides = 10, value = 9 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10DX@1XXX"
+output = ""
+rands = []
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "ET"
+output = "감정표(69-7) ＞ 신뢰 - ○위협"
+rands = [
+  { sides = 100, value = 69 },
+  { sides = 100, value = 7 },
+  { sides = 2, value = 2 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "ET"
+output = "감정표(51-33) ＞ 유지(遺志) - ○열등감"
+rands = [
+  { sides = 100, value = 51 },
+  { sides = 100, value = 33 },
+  { sides = 2, value = 2 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "ET"
+output = "감정표(54-70) ＞ ○유지(遺志) - 혐오"
+rands = [
+  { sides = 100, value = 54 },
+  { sides = 100, value = 70 },
+  { sides = 2, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "ET"
+output = "감정표(89-10) ＞ ○호의 - 위협"
+rands = [
+  { sides = 100, value = 89 },
+  { sides = 100, value = 10 },
+  { sides = 2, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "ET"
+output = "감정표(70-79) ＞ ○신뢰 - 싫음"
+rands = [
+  { sides = 100, value = 70 },
+  { sides = 100, value = 79 },
+  { sides = 2, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "ET"
+output = "감정표(91-9) ＞ 유위(有為) - ○위협"
+rands = [
+  { sides = 100, value = 91 },
+  { sides = 100, value = 9 },
+  { sides = 2, value = 2 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "ET"
+output = "감정표(39-15) ＞ 우정 - ○질투"
+rands = [
+  { sides = 100, value = 39 },
+  { sides = 100, value = 15 },
+  { sides = 2, value = 2 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "ET"
+output = "감정표(91-72) ＞ 유위(有為) - ○시의심"
+rands = [
+  { sides = 100, value = 91 },
+  { sides = 100, value = 72 },
+  { sides = 2, value = 2 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "ET"
+output = "감정표(66-57) ＞ ○신뢰 - 증오"
+rands = [
+  { sides = 100, value = 66 },
+  { sides = 100, value = 57 },
+  { sides = 2, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "ET"
+output = "감정표(82-21) ＞ ○성의 - 공포"
+rands = [
+  { sides = 100, value = 82 },
+  { sides = 100, value = 21 },
+  { sides = 2, value = 1 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "HC"
+output = "해프닝 차트(1) ＞ 아무 일도 없다. 수정은 특별히 없다."
+rands = [
+  { sides = 100, value = 1 }
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "HC"
+output = "해프닝 차트(55) ＞ 교착된 진행. 수정은 특별히 없다."
+rands = [
+  { sides = 100, value = 55 }
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "HC"
+output = "해프닝 차트(99) ＞ 순조로운 진행. 이번 라운드 동안에 진행판정에 성공한 캐릭터는, 진행치를 +1 얻는다."
+rands = [
+  { sides = 100, value = 99 }
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "PCP"
+output = "프롤로그 차트 (포지티브)(1) ＞ 【빅토리】 빌런 집단과 싸워, 승리한다. 보도진과 관중들이 그 승리를 칭찬한다."
+rands = [
+  { sides = 10, value = 1 }
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "PCP"
+output = "프롤로그 차트 (포지티브)(10) ＞ 【석세스】 뭔가에 대성공한 장면이다. 일이라도 좋고 휴가 중에 하는 게임이나 스포츠일지도 모른다."
+rands = [
+  { sides = 10, value = 10 }
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "PCN"
+output = "프롤로그 차트 (네거티브)(1) ＞ 【디피트】 빌런과 싸워 패배한 장면을 회상한다. 그때 부상은 이미 회복됐지만, 긍지는 아직 회복되지 않았다."
+rands = [
+  { sides = 10, value = 1 }
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "PCN"
+output = "프롤로그 차트 (네거티브)(5) ＞ 【배싱】 미디어나 시민들로부터 비판을 받는다. 과거의 실패나 지금의 난폭한 해결법 등."
+rands = [
+  { sides = 10, value = 5 }
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "PCN"
+output = "프롤로그 차트 (네거티브)(10) ＞ 【플리즈】 로이스의 대상 등에게로부터 히어로를 은퇴하라는 부탁을 받는다. 당신이 걱정된다, 너무 위험하다, 등등. 들어줄 수는 없지만⋯."
+rands = [
+  { sides = 10, value = 10 }
+]
+
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+5*2@8"
+output = "(10DX8+10) ＞ 10[2,3,6,6,6,6,7,8,10,10]+6[1,5,6]+10 ＞ 26"
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+(5*2)@8"
+output = "(10DX8+10) ＞ 10[2,3,6,6,6,6,7,8,10,10]+6[1,5,6]+10 ＞ 26"
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+3+(5*2)@8"
+output = "(10DX8+13) ＞ 10[2,3,6,6,6,6,7,8,10,10]+6[1,5,6]+13 ＞ 29"
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+(5*2)+4@8"
+output = "(10DX8+14) ＞ 10[2,3,6,6,6,6,7,8,10,10]+6[1,5,6]+14 ＞ 30"
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+3+(5*2)+4@8"
+output = "(10DX8+17) ＞ 10[2,3,6,6,6,6,7,8,10,10]+6[1,5,6]+17 ＞ 33"
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "10dx+3+(5*2+1)+4@8"
+output = "(10DX8+18) ＞ 10[2,3,6,6,6,6,7,8,10,10]+6[1,5,6]+18 ＞ 34"
+critical = true
+rands = [
+  { sides = 10, value = 2 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 10 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 3 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 6 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3*2"
+output = "(5DX7+1) ＞ 10[5,6,6,7,8]+10[1,9]+5[5]+1 ＞ 26"
+critical = true
+rands = [
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3*2+4"
+output = "(5DX7+5) ＞ 10[5,6,6,7,8]+10[1,9]+5[5]+5 ＞ 30"
+critical = true
+rands = [
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3*(2+1)"
+output = "(5DX7-2) ＞ 10[5,6,6,7,8]+10[1,9]+5[5]-2 ＞ 23"
+critical = true
+rands = [
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-3*(2+1)+7"
+output = "(5DX7+5) ＞ 10[5,6,6,7,8]+10[1,9]+5[5]+5 ＞ 30"
+critical = true
+rands = [
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX7+7-2*(2+5-3)"
+output = "(5DX7-1) ＞ 10[5,6,6,7,8]+10[1,9]+5[5]-1 ＞ 24"
+critical = true
+rands = [
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+]
+
+[[ test ]]
+game_system = "DoubleCross:Korean"
+input = "5DX(8-1)-(2-1)"
+output = "(5DX7-1) ＞ 10[5,6,6,7,8]+10[1,9]+5[5]-1 ＞ 24"
+critical = true
+rands = [
+  { sides = 10, value = 6 },
+  { sides = 10, value = 6 },
+  { sides = 10, value = 8 },
+  { sides = 10, value = 5 },
+  { sides = 10, value = 7 },
+  { sides = 10, value = 9 },
+  { sides = 10, value = 1 },
+  { sides = 10, value = 5 },
+]

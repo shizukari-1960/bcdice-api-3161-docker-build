@@ -1,0 +1,151 @@
+[[ test ]]
+game_system = "Gorilla"
+input = "2d6>=7 判定：成功"
+output = "(2D6>=7) ＞ 7[3,4] ＞ 7 ＞ 成功"
+success = true
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "2d6>=7 判定：失敗"
+output = "(2D6>=7) ＞ 5[2,3] ＞ 5 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 3 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "2d6>=7 判定：ゴリティカル1"
+output = "(2D6>=7) ＞ 10[5,5] ＞ 10 ＞ ゴリティカル（自動的成功）"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "2d6>=11 判定：ゴリティカル2"
+output = "(2D6>=11) ＞ 10[5,5] ＞ 10 ＞ ゴリティカル（自動的成功）"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "2d6>=11 判定：10だけどゴリティカルじゃない"
+output = "(2D6>=11) ＞ 10[4,6] ＞ 10 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "g ショートカット"
+output = "(2D6) ＞ 2[1,1] ＞ 2"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "G ショートカット"
+output = "(2D6) ＞ 4[2,2] ＞ 4"
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "G>=7 判定：成功"
+output = "(2D6>=7) ＞ 7[2,5] ＞ 7 ＞ 成功"
+success = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "SG>=7 判定：成功"
+output = "(2D6>=7) ＞ 7[2,5] ＞ 7 ＞ 成功"
+success = true
+secret = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "G>=7 判定：失敗"
+output = "(2D6>=7) ＞ 6[2,4] ＞ 6 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "G>=7 判定：ゴリティカル"
+output = "(2D6>=7) ＞ 10[5,5] ＞ 10 ＞ ゴリティカル（自動的成功）"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "G+2>=7 判定：修正+2"
+output = "(2D6+2>=7) ＞ 7[4,3]+2 ＞ 9 ＞ 成功"
+success = true
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 3 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "G-2>=7 判定：修正-2"
+output = "(2D6-2>=7) ＞ 7[4,3]-2 ＞ 5 ＞ 失敗"
+failure = true
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 3 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "G-2>=7 判定：ゴリティカル"
+output = "(2D6-2>=7) ＞ 10[5,5]-2 ＞ 8 ＞ ゴリティカル（自動的成功）"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Gorilla"
+input = "2D6>=? 目標値?でバグらない"
+output = "(2D6>=?) ＞ 7[3,4] ＞ 7"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]

@@ -1,0 +1,149 @@
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "ACT"
+output = "アクシデント表(1) ＞ 頭の中が黒く染まってゆく、怖い、苦しい。気持ち悪い！でも…なんだか少しだけ、すがすがしい。あなたは「発狂」する。すでに「発狂」している場合、「理性」を2点失う。"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "ACT"
+output = "アクシデント表(10) ＞ まるで自分を支える何かが失われたように、あなたはその場に立ち尽くす。諦めと絶望が心を支配する。ああ、そうか。これが、「心が折れる」ということか……。あなたは「理性」を4点失う。"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "ACT4"
+output = "アクシデント表(4) ＞ 不意を突かれたあなたは、とっさに化物を攻撃する！……確かに化物に見えたのだ。しかし、あなたが手にかけたのは見知った顔だった。あなたが正の「ツナガリ」を結んでいる主人公をランダムに1人選び、2点のダメージを与える。正の「ツナガリ」を結んでいる主人公がいない場合、ダイスを振り直し、再度「アクシデント表」に当てはめる。"
+rands = []
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "EMO"
+output = "感情表(1) ＞ (正)信頼／(負)依存"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "EMO"
+output = "感情表(10) ＞ (正)狂信／(負)殺意"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SST"
+output = "幕間シーン表（情景）(1) ＞ 先が見えない闇の中を、あなたは手探りに進んでいる。暗がりに入り込んでしまったのか、それとも辺りの光が消えたのか———その時、あなたの眼前に、闇から溶け出すように何者かの姿が現れた。"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SST"
+output = "幕間シーン表（情景）(10) ＞ 周囲を確認し、あなたは相手に合図を送る。足音静かに、相手があなたの元へと駆け寄る。———他の気配はない。慎重に、密やかに、あなたは相手と話し始めた。"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SRT"
+output = "幕間シーン表（関係）(1) ＞ 微かな香り。ちょっとした仕事。横顔。あの人のすべてが、あなたの胸を高鳴らせる———こんな気持ちは、初めてだ。"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SRT"
+output = "幕間シーン表（関係）(10) ＞ 間違いない……！あなたはその人物をにらみつけた。何という幸運だろう。追い求めた相手が、すぐそこにいるなんて！あなたは荒れ狂う胸の内を気取られぬよう、ゆっくりと近づいた。"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SAE1"
+output = "大事故イベント表1　日常と正気の破壊(1) ＞ 非日常に慣れてしまう自分が恐ろしい。心が恐怖を感じなくなってきたみたいだ……。セッション終了まで【精神】が２点減少する。"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SAE1"
+output = "大事故イベント表1　日常と正気の破壊(10) ＞ 勘違いしていた。あいつも、こいつも、みんな敵だ。自分を陥れようとしているんだ……！セッション終了まで「援護」をすることができなくなる(この状態は「失調」として扱う)。"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SAE2"
+output = "大事故イベント表2　アメリカンB級ホラー(1) ＞ 諦めかけたその時、過去に戦ったあいつらが俺の拳に乗り移る。お前ら……力を貸してくれ！以降、一度だけ自分の攻撃に〔ダイス２つ分〕点の追加ダメージを得る。「過去に戦ったあいつら」は好きに捏造してよい。"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SAE2"
+output = "大事故イベント表2　アメリカンB級ホラー(10) ＞ 最後の一言を言い残し、あなたのキャラクターは絶命する。全米が号泣する感動のシーンだ。あなたは進行役が許可する範囲で、あなたの主人公の最期を自由に演出する。ただし、主人公は異世界の影響ですぐに復活する。侵蝕を〔ダイス２つ分〕点増加させる(最大１０点)。"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SAE3"
+output = "大事故イベント表3　牙をむく異世界(1) ＞ 異世界からの侵蝕の影響か、あなたの姿が乳児になり、全ての「能力値」を「失調」する(いずれかの「能力値」が「復調」した場合、姿は元に戻る)。"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SAE3"
+output = "大事故イベント表3　牙をむく異世界(10) ＞ あなたの姿が老人になる。全ての能力値が４点減少し、また全ての「ツナガリ」を忘れてしまう(「ツナガリ」は消えないが「援護」や感情の変更を行うことができなくなる)。この状態は「失調」として扱い「薬」や「治療」の効果により元に戻る。また新たな「ツナガリ」を獲得した場合も姿は元に戻る。"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SAE4"
+output = "大事故イベント表4　悪意のおとぎ話(1) ＞ 何か尖ったものに触れてしまった。途端に、あなたは強烈な眠気に襲われた……。あなたが次に幕間作成を行う場合「休憩」(『トコヤミメイズ』P74)しか選ぶことができない。"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SAE4"
+output = "大事故イベント表4　悪意のおとぎ話(10) ＞ あなたは足元に現れた泉に落ちる。泉からはい上がると、あなたの頭の中に３人のあなたがいる。頭の中がうるさくて落ち着かない！以後、判定の際にダイスを一つ追加し、最も低い出目の一つはなかったことにする。"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SAE5"
+output = "大事故イベント表5　悲劇の運命(1) ＞ シナリオに直接関係ないが、あなたの家が燃える。"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "KurayamiCrying"
+input = "SAE5"
+output = "大事故イベント表5　悲劇の運命(10) ＞ 進行役は主人公役に何か一つ質問をする。その質問に対し可能な限り正直に答えなければならない(公序良俗に反する質問やハラスメントにあたる質問であった場合を除く)。"
+rands = [
+  { sides = 10, value = 10 },
+]

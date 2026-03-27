@@ -1,0 +1,1052 @@
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6"
+output = "(2D6) ＞ 3[1,2] ＞ 3"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6"
+output = "(2D6) ＞ 2[1,1] ＞ 2"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6"
+output = "(2D6) ＞ 7[3,4] ＞ 7"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6"
+output = "(2D6) ＞ 12[6,6] ＞ 12"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2"
+output = "(2D6+2) ＞ 3[1,2]+2 ＞ 5"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2"
+output = "(2D6+2) ＞ 2[1,1]+2 ＞ 4"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2"
+output = "(2D6+2) ＞ 7[3,4]+2 ＞ 9"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2"
+output = "(2D6+2) ＞ 12[6,6]+2 ＞ 14"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6>=5"
+output = "(2D6>=5) ＞ 3[1,2] ＞ 3 ＞ 失敗"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6>=5"
+output = "(2D6>=5) ＞ 2[1,1] ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6>=5"
+output = "(2D6>=5) ＞ 7[3,4] ＞ 7 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6>=5"
+output = "(2D6>=5) ＞ 12[6,6] ＞ 12 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+0>=5"
+output = "(2D6>=5) ＞ 3[1,2] ＞ 3 ＞ 失敗"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+0>=5"
+output = "(2D6>=5) ＞ 2[1,1] ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+0>=5"
+output = "(2D6>=5) ＞ 7[3,4] ＞ 7 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+0>=5"
+output = "(2D6>=5) ＞ 12[6,6] ＞ 12 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2>=5"
+output = "(2D6+2>=5) ＞ 3[1,2]+2 ＞ 5 ＞ 成功"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2>=5"
+output = "(2D6+2>=5) ＞ 2[1,1]+2 ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2>=5"
+output = "(2D6+2>=5) ＞ 7[3,4]+2 ＞ 9 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2>=5"
+output = "(2D6+2>=5) ＞ 10[6,4]+2 ＞ 12 ＞ 成功"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2>=5"
+output = "(2D6+2>=5) ＞ 12[6,6]+2 ＞ 14 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 3[1,2]+2+1 ＞ 6 ＞ 成功"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 2[1,1]+2+1 ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 7[3,4]+2+1 ＞ 10 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 10[6,4]+2+1 ＞ 13 ＞ 成功"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 12[6,6]+2+1 ＞ 15 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6-2>=5"
+output = "(2D6-2>=5) ＞ 3[1,2]-2 ＞ 1 ＞ 失敗"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6-2>=5"
+output = "(2D6-2>=5) ＞ 6[2,4]-2 ＞ 4 ＞ 失敗"
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6-2>=5"
+output = "(2D6-2>=5) ＞ 2[1,1]-2 ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6-2>=5"
+output = "(2D6-2>=5) ＞ 7[3,4]-2 ＞ 5 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D6-2>=5"
+output = "(2D6-2>=5) ＞ 12[6,6]-2 ＞ 10 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D>=5"
+output = "(2D6>=5) ＞ 3[1,2] ＞ 3 ＞ 失敗"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D>=5"
+output = "(2D6>=5) ＞ 2[1,1] ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D>=5"
+output = "(2D6>=5) ＞ 7[3,4] ＞ 7 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D>=5"
+output = "(2D6>=5) ＞ 12[6,6] ＞ 12 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D"
+output = "(2D6) ＞ 3[1,2] ＞ 3"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D"
+output = "(2D6) ＞ 2[1,1] ＞ 2"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D"
+output = "(2D6) ＞ 7[3,4] ＞ 7"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D"
+output = "(2D6) ＞ 12[6,6] ＞ 12"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2"
+output = "(2D6+2) ＞ 3[1,2]+2 ＞ 5"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2"
+output = "(2D6+2) ＞ 2[1,1]+2 ＞ 4"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2"
+output = "(2D6+2) ＞ 7[3,4]+2 ＞ 9"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2"
+output = "(2D6+2) ＞ 12[6,6]+2 ＞ 14"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+0>=5"
+output = "(2D6>=5) ＞ 3[1,2] ＞ 3 ＞ 失敗"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+0>=5"
+output = "(2D6>=5) ＞ 2[1,1] ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+0>=5"
+output = "(2D6>=5) ＞ 7[3,4] ＞ 7 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+0>=5"
+output = "(2D6>=5) ＞ 12[6,6] ＞ 12 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2>=5"
+output = "(2D6+2>=5) ＞ 3[1,2]+2 ＞ 5 ＞ 成功"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2>=5"
+output = "(2D6+2>=5) ＞ 2[1,1]+2 ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2>=5"
+output = "(2D6+2>=5) ＞ 7[3,4]+2 ＞ 9 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2>=5"
+output = "(2D6+2>=5) ＞ 10[6,4]+2 ＞ 12 ＞ 成功"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2>=5"
+output = "(2D6+2>=5) ＞ 12[6,6]+2 ＞ 14 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 3[1,2]+2+1 ＞ 6 ＞ 成功"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 2[1,1]+2+1 ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 7[3,4]+2+1 ＞ 10 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 10[6,4]+2+1 ＞ 13 ＞ 成功"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 12[6,6]+2+1 ＞ 15 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D-2>=5"
+output = "(2D6-2>=5) ＞ 3[1,2]-2 ＞ 1 ＞ 失敗"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D-2>=5"
+output = "(2D6-2>=5) ＞ 6[2,4]-2 ＞ 4 ＞ 失敗"
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D-2>=5"
+output = "(2D6-2>=5) ＞ 2[1,1]-2 ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D-2>=5"
+output = "(2D6-2>=5) ＞ 7[3,4]-2 ＞ 5 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2D-2>=5"
+output = "(2D6-2>=5) ＞ 12[6,6]-2 ＞ 10 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC"
+output = "(2D6) ＞ 3[1,2] ＞ 3"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC"
+output = "(2D6) ＞ 2[1,1] ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC"
+output = "(2D6) ＞ 7[3,4] ＞ 7"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC"
+output = "(2D6) ＞ 12[6,6] ＞ 12 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2"
+output = "(2D6+2) ＞ 3[1,2]+2 ＞ 5"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2"
+output = "(2D6+2) ＞ 2[1,1]+2 ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2"
+output = "(2D6+2) ＞ 7[3,4]+2 ＞ 9"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2"
+output = "(2D6+2) ＞ 12[6,6]+2 ＞ 14 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2+1"
+output = "(2D6+2+1) ＞ 3[1,2]+2+1 ＞ 6"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2+1"
+output = "(2D6+2+1) ＞ 2[1,1]+2+1 ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2+1"
+output = "(2D6+2+1) ＞ 7[3,4]+2+1 ＞ 10"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2+1"
+output = "(2D6+2+1) ＞ 12[6,6]+2+1 ＞ 15 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC>=5"
+output = "(2D6>=5) ＞ 3[1,2] ＞ 3 ＞ 失敗"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC>=5"
+output = "(2D6>=5) ＞ 2[1,1] ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC>=5"
+output = "(2D6>=5) ＞ 7[3,4] ＞ 7 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC>=5"
+output = "(2D6>=5) ＞ 12[6,6] ＞ 12 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+0>=5"
+output = "(2D6>=5) ＞ 3[1,2] ＞ 3 ＞ 失敗"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+0>=5"
+output = "(2D6>=5) ＞ 2[1,1] ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+0>=5"
+output = "(2D6>=5) ＞ 7[3,4] ＞ 7 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+0>=5"
+output = "(2D6>=5) ＞ 12[6,6] ＞ 12 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2>=5"
+output = "(2D6+2>=5) ＞ 3[1,2]+2 ＞ 5 ＞ 成功"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2>=5"
+output = "(2D6+2>=5) ＞ 2[1,1]+2 ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2>=5"
+output = "(2D6+2>=5) ＞ 7[3,4]+2 ＞ 9 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2>=5"
+output = "(2D6+2>=5) ＞ 10[6,4]+2 ＞ 12 ＞ 成功"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2>=5"
+output = "(2D6+2>=5) ＞ 12[6,6]+2 ＞ 14 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 3[1,2]+2+1 ＞ 6 ＞ 成功"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 2[1,1]+2+1 ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 7[3,4]+2+1 ＞ 10 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 10[6,4]+2+1 ＞ 13 ＞ 成功"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 12[6,6]+2+1 ＞ 15 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC-2>=5"
+output = "(2D6-2>=5) ＞ 3[1,2]-2 ＞ 1 ＞ 失敗"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC-2>=5"
+output = "(2D6-2>=5) ＞ 6[2,4]-2 ＞ 4 ＞ 失敗"
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC-2>=5"
+output = "(2D6-2>=5) ＞ 2[1,1]-2 ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC-2>=5"
+output = "(2D6-2>=5) ＞ 7[3,4]-2 ＞ 5 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2NC-2>=5"
+output = "(2D6-2>=5) ＞ 12[6,6]-2 ＞ 10 ＞ クリティカル"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "1NC>=5"
+output = "(1D6>=5) ＞ 2[2] ＞ 2 ＞ 失敗"
+rands = [
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "1NC>=5"
+output = "(1D6>=5) ＞ 1[1] ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "1NC>=5"
+output = "(1D6>=5) ＞ 5[5] ＞ 5 ＞ 成功"
+rands = [
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "1NC>=5"
+output = "(1D6>=5) ＞ 6[6] ＞ 6 ＞ 成功"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "1NC+2>=5"
+output = "(1D6+2>=5) ＞ 2[2]+2 ＞ 4 ＞ 失敗"
+rands = [
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "1NC+2>=5"
+output = "(1D6+2>=5) ＞ 1[1]+2 ＞ 0 ＞ ファンブル"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "1NC+2>=5"
+output = "(1D6+2>=5) ＞ 5[5]+2 ＞ 7 ＞ 成功"
+rands = [
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "1NC+2>=5"
+output = "(1D6+2>=5) ＞ 6[6]+2 ＞ 8 ＞ 成功"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "S2D6>=5"
+output = "(2D6>=5) ＞ 7[3,4] ＞ 7 ＞ 成功"
+secret = true
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "S2NC+2+1>=5"
+output = "(2D6+2+1>=5) ＞ 12[6,6]+2+1 ＞ 15 ＞ クリティカル"
+secret = true
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2nc+0>=5"
+output = "(2D6>=5) ＞ 3[1,2] ＞ 3 ＞ 失敗"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2Nc+0>=5"
+output = "(2D6>=5) ＞ 4[2,2] ＞ 4 ＞ 失敗"
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "2nC+0>=5"
+output = "(2D6>=5) ＞ 5[3,2] ＞ 5 ＞ 成功"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "CHAR1"
+output = "所属表(2) ＞ 無職/専業主婦/専業主夫"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "char1"
+output = "所属表(12) ＞ 経営者"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "CHAR1"
+output = "所属表(7) ＞ 短大/専門学校生"
+rands = [
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "CHAR3"
+output = "リビド武装形状表(8) ＞ 異形。巨大化した体や鉤爪、伸びる腕など"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "NAYA5"
+output = "悩みの詳細表・住/Home(2) ＞ 親がもううるさくない"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "NeverCloud"
+input = "STAT2"
+output = "LSリスト(基本ルール書籍版P41)\n　下記4つのロングステータス(LS)は準備プロセス終了時に解除されない。\n・[リフレクト]　ダメージを受けた時その2倍の値のダメージを相手に与え効果を解除する。\n・[ブースト:ｎ]　[威力ロール]の前に消費を選択した場合は威力ロールに[+n]を与え効果を解除する。\n・[DoT:xTn](Damage_on_Time)　準備プロセスにx点のHPダメージを受け、\n　nを1減らし0になると解除される。効果が累積した場合それぞれ大きい値になる。\n・[行動不能]　HPが0になった時[未行動]でなくなり、全ての行動や判定を行うことができない。\n　{パケット}が0になり全てのSSが解除される。《助け起こす》または[フレンドシップ]1つ消費して[未行動]になることで解除できる。"
+rands = []
+
+[[test]]
+game_system = "NeverCloud"
+input = "ARTS"
+output = "リビドアーツのデータ項目(基本ルール書籍版P40)\n・射程:起点から『ぴったり』に、何Sq離れたキャラクターを対象に取れるかを示す。射程0は自身のみのことである。\n・威力:そのアーツを使用した結果に対象に及ぼす数値を示す。ダイスロールを含む場合「威力ロール」と呼ぶ。\n・コスト/制限:コストとして実行者の{パケット}をn点上昇させる。\n・スペシャルアーツ:「タイミング:インスタント」必ず[決意]1点を消費する。この時「[決意]の効果」は発生しない。\n・アーツのリネーム:取得アーツはPCの設定に合わせ(他のアーツと誤解させないよう)名前を好きに変更しても良い。"
+rands = []
+
+[[test]]
+game_system = "NeverCloud"
+input = "ARTS1"
+output = "リビドアーツのデータ項目(基本ルール書籍版P40)\n・射程:起点から『ぴったり』に、何Sq離れたキャラクターを対象に取れるかを示す。射程0は自身のみのことである。\n・威力:そのアーツを使用した結果に対象に及ぼす数値を示す。ダイスロールを含む場合「威力ロール」と呼ぶ。\n・コスト/制限:コストとして実行者の{パケット}をn点上昇させる。\n・スペシャルアーツ:「タイミング:インスタント」必ず[決意]1点を消費する。この時「[決意]の効果」は発生しない。\n・アーツのリネーム:取得アーツはPCの設定に合わせ(他のアーツと誤解させないよう)名前を好きに変更しても良い。"
+rands = []
+
+[[test]]
+game_system = "NeverCloud"
+input = "LIKE1"
+output = "LIKE(基本ルール書籍版P60)\n・全ての参加者(PLやGMや見学者)はセッション中にPCやGMのロールプレイや行動に、\n　共感や称賛や琴線に触れた時[LIKE:～]と言ってその内容と共に記述して蓄積して行く。\n・リサーチ中では手番を消費せず[LIKE]1点ごとに対象の{HP}を[50]点回復させても良い。"
+rands = []

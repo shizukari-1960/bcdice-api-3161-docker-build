@@ -1,0 +1,389 @@
+[[ test ]]
+game_system = "Garako"
+input = "PNM"
+output = "名前表：ピグマー族（男）(1) ＞ バビロン"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "PNM"
+output = "名前表：ピグマー族（男）(10) ＞ サマルトリア"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "ENM"
+output = "名前表：エレメント族（男）(1) ＞ アポロン"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "ENF"
+output = "名前表：エレメント族（女）(1) ＞ クシナダ"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "NNM"
+output = "名前表：ノーマッド族（男）(1) ＞ ドラム"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "NNM"
+output = "名前表：ノーマッド族（男）(1) ＞ ドラム"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "RNM"
+output = "名前表：ラット族（男）(1) ＞ ポチ"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "RNF"
+output = "名前表：ラット族（女）(1) ＞ タマ"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "BN1"
+output = "名前表：ブレイン族（その１）(1) ＞ マリファナ"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "BN2"
+output = "名前表：ブレイン族（その２）(1) ＞ ニトロ"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "TN1"
+output = "名前表：テンタクル族（その１）(1) ＞ アップル"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "TN2"
+output = "名前表：テンタクル族（その２）(1) ＞ キノコ"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "GR+1>=10"
+output = "(1D10+1>=10) ＞ 10[10]+1 ＞ 11 ＞ クリティカル"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "GR+1>=10"
+output = "(1D10+1>=10) ＞ 9[9]+1 ＞ 10 ＞ 成功"
+rands = [
+  { sides = 10, value = 9 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "GR+1>=10"
+output = "(1D10+1>=10) ＞ 8[8]+1 ＞ 9 ＞ 失敗"
+rands = [
+  { sides = 10, value = 8 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "GR+1>=10"
+output = "(1D10+1>=10) ＞ 1[1]+1 ＞ 2 ＞ ファンブル"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "GR+(1+2)>=10"
+output = "(1D10+3>=10) ＞ 8[8]+3 ＞ 11 ＞ 成功"
+rands = [
+  { sides = 10, value = 8 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "GR+1+3-5+4>=10"
+output = "(1D10+3>=10) ＞ 8[8]+3 ＞ 11 ＞ 成功"
+rands = [
+  { sides = 10, value = 8 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "GR+(1-1)>=10"
+output = "(1D10>=10) ＞ 8[8] ＞ 8 ＞ 失敗"
+rands = [
+  { sides = 10, value = 8 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "GR+1"
+output = "(1D10+1) ＞ 10[10]+1 ＞ 11 ＞ クリティカル"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "GR+1"
+output = "(1D10+1) ＞ 9[9]+1 ＞ 10"
+rands = [
+  { sides = 10, value = 9 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "GR+1"
+output = "(1D10+1) ＞ 1[1]+1 ＞ 2 ＞ ファンブル"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "IDI"
+output = "個性表(1) ＞ 〈近接武器熟練〉 近接攻撃の火力+1。"
+rands = [
+  { sides = 100, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "IDI"
+output = "個性表(100) ＞ 〈リザレクション〉 死んだ目標を生き返らせる。生き返った目標のHPは10になる。このシーンの間に死亡したキャラクターのみ目標にできる。（超能力）"
+rands = [
+  { sides = 100, value = 100 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "MTV"
+output = "動機決定表(10) ＞ 特に動機らしい動機はない。"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "HIT"
+output = "部位決定チャート(1) ＞ コックピット"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "HIT"
+output = "部位決定チャート(10) ＞ レフトレッグ"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "CDC0"
+output = "ダメージを受けない"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "CDC1"
+output = "部位ダメージチャート：コックピット(1) ＞ 小破（アーマー損傷）：以後、この部位の【部位装甲】-1。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "CDC10"
+output = "部位ダメージチャート：コックピット(10) ＞ 修復不能（破壊）：コックピットが［修復不能］となる。キミは2d10-【身体】点のHPダメージを受ける。ガラコはすべての機能を停止する。コックピットのハッチが自動的に開く。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "CDC11"
+output = "部位ダメージチャート：コックピット(10) ＞ 修復不能（破壊）：コックピットが［修復不能］となる。キミは2d10-【身体】点のHPダメージを受ける。ガラコはすべての機能を停止する。コックピットのハッチが自動的に開く。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "CDC"
+output = ""
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "EDC10"
+output = "部位ダメージチャート：エンジン(10) ＞ 修復不能（エンジン停止）：エンジンが停止する。ガラコはすべての機能を停止する。コックピットのハッチが自動的に開く。【操作性】10の判定を行うこと。失敗するとエンジンが爆発する。その場合、すべての部位が［修復不能］となり、キミは2d10-【身体】点のダメージを受ける。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "FDC9"
+output = "部位ダメージチャート：フレーム(9) ＞ 大破（アーマー損傷）：フレームに甚大なダメージを受ける。以後、この部位の【部位装甲】に-3。［弱体1］を受ける。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "FDC10"
+output = "部位ダメージチャート：フレーム(10) ＞ 修復不能（フレーム崩壊）：フレームが［修復不能］となる。フレームの大部分が剥がれ落ち、ガラコの内部が晒される。以後、キミに対して部位狙いが行われる場合、その命中判定に対する修正（p21）は発生しなくなる。［弱体2］を受ける。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "ADC10"
+output = "部位ダメージチャート：アーム(10) ＞ 修復不能（破壊）：ダメージを受けた側のアームが［修復不能］となる。［弱体2］を受ける。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "LDC10"
+output = "部位ダメージチャート：レッグ(10) ＞ 修復不能（破壊）：ダメージを受けた側のレッグが［修復不能］となる。【移動力】-2。［弱体2］を受ける。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "CDT0"
+output = "ダメージを受けない"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "CDT1"
+output = "部位ダメージチャートv2: コックピット(1) ＞ アーマー損傷（小破/弱体0/装甲ダメージ1）装甲に軽いひび割れが走る。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "CDT10"
+output = "部位ダメージチャートv2: コックピット(10) ＞ 破壊（修復不能/弱体2/装甲ダメージ3）コックピットが「修復不能」となる。キミは2d10-【身体】点のＨＰダメージを受ける。ガラコはすべての機能を停止する。コックピットのハッチが自動的に開く。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "CDT11"
+output = "部位ダメージチャートv2: コックピット(10) ＞ 破壊（修復不能/弱体2/装甲ダメージ3）コックピットが「修復不能」となる。キミは2d10-【身体】点のＨＰダメージを受ける。ガラコはすべての機能を停止する。コックピットのハッチが自動的に開く。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "LDT10"
+output = "部位ダメージチャートv2: レッグ(10) ＞ 破壊 （修復不能 /弱体2/装甲ダメージ3）ダメージを受けた側のレッグが「修復不能」となる。【移動力】-2。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "LDT5+5"
+output = "部位ダメージチャートv2: レッグ(10) ＞ 破壊 （修復不能 /弱体2/装甲ダメージ3）ダメージを受けた側のレッグが「修復不能」となる。【移動力】-2。"
+rands = []
+
+[[ test ]]
+game_system = "Garako"
+input = "GCC"
+output = "ガラコ改造チャート表(10) ＞ 【弱体無効】価格+500。このパーツへの部位ダメージによる[弱体]の効果を無視する。"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "WCC"
+output = "武器改造チャート表(10) ＞ 【回数無限】価格+500。武器の使用回数制限がなくなる。"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "EVC"
+output = "イベントチャート表(10) ＞ 【最悪の敵】ズルワーン(『GTD』p29)が1体現れる。戦闘開始。"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "BSD"
+output = "戦闘開始距離(10) ＞ 15マス"
+rands = [
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "bsd"
+output = "戦闘開始距離(1) ＞ 3マス"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "GHA5"
+output = "(1D10+5) ＞ 8[8]+5, HIT[4] ＞ フレームに 13 -【部位装甲】"
+rands = [
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "GHA-7+5"
+output = "(1D10-2) ＞ 1[1]-2 ＞ -1（ダメージを受けない）"
+rands = [
+  { sides = 10, value = 1 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "2d+5 デフォルト10面ダイス"
+output = "(2D10+5) ＞ 14[5,9]+5 ＞ 19"
+rands = [
+  { sides = 10, value = 5 },
+  { sides = 10, value = 9 },
+]
+
+[[ test ]]
+game_system = "Garako"
+input = "2d*5+2d6+1D 複雑な式"
+output = "(2D10*5+2D6+1D10) ＞ 12[8,4]*5+11[6,5]+4[4] ＞ 75"
+rands = [
+  { sides = 10, value = 8 },
+  { sides = 10, value = 4 },
+  { sides = 6, value = 6 },
+  { sides = 6, value = 5 },
+  { sides = 10, value = 4 },
+]

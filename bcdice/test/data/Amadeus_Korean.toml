@@ -1,0 +1,742 @@
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RC>=5"
+output = "(RC>=5) ＞ [5] ＞ 5_성공[5]"
+success = true
+rands = [
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RC"
+output = "(RC>=4) ＞ [5] ＞ 5_성공[5]"
+success = true
+rands = [
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RC"
+output = "(RC>=4) ＞ [2] ＞ 2_실패[2]"
+failure = true
+rands = [
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RC+2"
+output = "(RC+2>=4) ＞ [2]+2 ＞ 4_성공[2]"
+success = true
+rands = [
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RC-3"
+output = "(RC-3>=4) ＞ [2]-3 ＞ -1_실패[2]"
+failure = true
+rands = [
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RC-3+2"
+output = "(RC-1>=4) ＞ [2]-1 ＞ 1_실패[2]"
+failure = true
+rands = [
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RC>=5-1"
+output = "(RC>=4) ＞ [5] ＞ 5_성공[5]"
+success = true
+rands = [
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RC>=5-2 hogehoge"
+output = "(RC>=3) ＞ [5] ＞ 5_성공[5]"
+success = true
+rands = [
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RB+1>=5"
+output = "(RB+1>=5) ＞ [2,4]+1 ＞ 3_실패[2적] / 5_성공[4녹]"
+success = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RB+2 ファンブルかつ成功のときはsuccessのみ"
+output = "(RB+2>=4) ＞ [1,2]+2 ＞ 3_펌블！[1흑] / 4_성공[2적]"
+success = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RA-1"
+output = "(RA-1>=4) ＞ [1,5,6]-1 ＞ 0_펌블！[1흑] / 4_성공[5백] / 5_스페셜！[6임의]"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RS"
+output = "(RS>=4) ＞ [2,1,5,6] ＞ 2_실패[2적] / 1_펌블！[1흑] / 5_성공[5백] / 6_스페셜！[6임의]"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 5 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RD+1>=5"
+output = "(RD+1>=5) ＞ [2,4]+1 ＞ 3_실패[2]"
+failure = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RB@5"
+output = "(RB@5>=4) ＞ [2,5] ＞ 2_실패[2적] / 5_스페셜！[5백]"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RB+2@5"
+output = "(RB+2@5>=4) ＞ [2,5]+2 ＞ 4_성공[2적] / 7_스페셜！[5백]"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RB+2@5>=5"
+output = "(RB+2@5>=5) ＞ [2,5]+2 ＞ 4_실패[2적] / 7_스페셜！[5백]"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RB+2>=5@5"
+output = "(RB+2@5>=5) ＞ [2,5]+2 ＞ 4_실패[2적] / 7_스페셜！[5백]"
+success = true
+critical = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "ECT"
+output = "조우표(1) ＞ 고백. 당신은 신과 인간(짐승의 아이의 경우는 무언가의 동물)이 서로 사랑해 태어난 신의 아이입니다. 최근이 되어 그 사실과 예언에 관해 자신의 부모로부터 전해듣게 되었습니다. 당신은 양친이 있는 경우 어느 한쪽은 의붓부모가 됩니다."
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "ECT"
+output = "조우표(6) ＞ 귀의. 당신은 괴물에 의해 생명의 위협을 받았습니다. 하지만, 신의 피를 받은 것으로 죽음의 문턱에서 되돌아 왔습니다. 그 이후로, 당신은 당신을 구해준 신에게 귀의하여 인생을 바치기로 했습니다."
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RT"
+output = "관계표(2) ＞ 동정(플러스) / 모멸(마이너스)"
+rands = [
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RT"
+output = "관계표(6) ＞ 소중(플러스) / 귀찮(마이너스)"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "PRT"
+output = "부모마음표(1) ＞ 귀엽다(플러스) / 건방지다(마이너스)"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "PRT"
+output = "부모마음표(6) ＞ 과보호(플러스) / 집착(마이너스)"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "BST"
+output = "전장표(1) ＞ 묘지. 라운드 종료 시 PC와 괴물의 본체는 【생명력】이 1D6점 감소한다. PC가 기프트를 사용할 때 흑의 영역의 인과가 추가로 2개 있는것으로 취급한다."
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "BST"
+output = "전장표(6) ＞ 평지. 아무런 효과도 없다."
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "BT"
+output = "휴식표(11) ＞ 토착 괴물이 습격해왔다! 어떻게든 격퇴했지만 부상을 입었다. 자신은 1D6점 데미지를 입는다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "BT"
+output = "휴식표(16) ＞ 당신은 무심코 노래를 부른다. 어느샌가 모두가 그 노래에 집중하고 있었다. 흑의 영역 이외의 원하는 인과 1개를 다른 영역으로 옮긴다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "BT"
+output = "휴식표(45) ＞ 양아치들에게 얽힌 이성을 발견한다. 이 표를 굴린 PC가 【무용】의 판정에 성공하면 그 NPC는 이 표를 굴린 PC에 대한 【마음】을 1점 획득한다. 이 NPC를 협력자로 한다면 이 표를 굴린 PC가 이름과 관계를 자유롭게 정한다."
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "BT"
+output = "휴식표(66) ＞ 부모신이 당신에게 이야기하고 있다. 부모자식간의 대화다. 이 표를 굴린 PC는 【일상】의 판정에 성공하면 자신의 부모신에 대한 【마음】이나 부모신의 자신에 대한 【마음】중 하나를 1점 상승시킨다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "FT"
+output = "펌블표(1) ＞ 운명의 수레바퀴가 회전한다. 각각의 영역의 인과를 적->청->녹->백->적으로 옮긴다."
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "FT"
+output = "펌블표(6) ＞ 주변에 활기가 사라진다. 운명의 수레바퀴에서 흑의 영역 이외의 인과를 모두 1개씩 제거한다."
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "FWT"
+output = "치명상표(1) ＞ 절망적인 공격을 받는다. 이 캐릭터는 사망한다."
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "FWT"
+output = "치명상표(6) ＞ 기적적으로 버틴다. 【생명력】이 1점으로 회복된다."
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "BRT"
+output = "전과표(1) ＞ 코인을 1개 획득한다."
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "BRT"
+output = "전과표(6) ＞ PC 전원은 인물란의 체크를 1개 해제한다."
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RIT"
+output = "랜덤아이템표(2) ＞ 「갑옷」을 1개 획득한다."
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RIT"
+output = "랜덤아이템표(12) ＞ 「폭탄」을 1개 획득한다."
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "WT"
+output = "부상표(1) ＞ 자신의 【생명력】이 1D6점 감소한다."
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "WT"
+output = "부상표(6) ＞ 자신의 인물란의 가장 높은【마음】1개가 1점 감소한다. "
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "NMT"
+output = "악몽표(1) ＞ 절망의 어둠에 시야를 차단당한다. 등뒤에 괴물의 기척이 느껴진다고 생각했을때는 늦었다. 비열한 공격이 당신을 덮친다. 원하는 능력치로 판정해 실패하면 사망한다."
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "NMT"
+output = "악몽표(6) ＞ 절망의 어둠 속에서 필사적으로 도망쳤다. 등뒤에서 동료의 목소리가 들린듯한 기분이 든다. 하지만, 당신은 돌아볼 수 없었다. 【일상】의 판정에 실패하면 「수치」의 저주를 받는다."
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "TGT"
+output = "목표표(1) ＞ 악의. PC 중에서 가장 【생명력】이 낮은 PC 1명을 선택한다. 가장 낮은 【생명력】인 사람이 여럿 있을 경우, 그 중에서 GM이 자유롭게 선택한다."
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "TGT"
+output = "목표표(4) ＞ 견실. PC 중에서 가장 【기술】랭크가 낮은 PC 1명을 선택한다. 가장 낮은 랭크를 가진 사람이 여럿 있을 경우, 그 중에서 가장 낮은 모드를 가진 사람을 1명 선택한다. 모드도 같을 경우, 그 중에서 GM이 자유롭게 선택한다."
+rands = [
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "TGT"
+output = "목표표(6) ＞ 교활. 가장 숫자가 낮은 패러그래프에 있는 PC 1명을 선택한다. 전원이 장외에 있을 경우, 장외에 있는 PC 전원을 목표로 선택한다."
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "CST"
+output = "制約表(1) ＞ 短命"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "CST"
+output = "制約表(5) ＞ 喧嘩"
+rands = [
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "GCVT"
+output = "ギリシャ神群試練表(2) ＞ 水音に目を向けると、アルテミスが泉で水浴びをしていた。美しい……あ、気づかれた？自分が男性なら、「重傷2」の変調を受ける。自分が女性なら、「恥辱」の変調を受ける。"
+rands = [
+  { sides = 6, value = 2 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "GCVT"
+output = "ギリシャ神群試練表(6) ＞ 「あなた最近、調子に乗ってない？」アフロディーテに難癖をつけられた。「自分のことだけ見てればいいんじゃない？」鏡に映る自分が、とても美しく思えてきた。自分への【想い】が2点上昇し、それ以外の人物欄のパトスすべてにチェックを入れる。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "YCVT"
+output = "ヤマト神群試練表(1) ＞ 空が急に暗くなる。太陽がどこにも見えない。もしかして、アマテラスが隠れてしまったのか？黒の領域にインガを一つ配置する。"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "YCVT"
+output = "ヤマト神群試練表(6) ＞ 海岸でいじめられている亀を助けたら、海の中の宮殿につれてきてくれた。トヨタマヒメが現れ、盛大にもてなしてくれる。あっという間に、夢のような時間が過ぎていく。でも、そろそろ行かなくては。【日常】で判定する。失敗すると、自分の年齢を6D6歳増やし、「絶望」の変調を受ける。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "ECVT"
+output = "エジプト神群試練表(1) ＞ 大蛇アペプが今にも目の前の空で輝く太陽を、飲み込もうとしている！止めなくては！【武勇】で判定する。失敗すると、黒の領域にインガを二つ配置する。"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "ECVT"
+output = "エジプト神群試練表(6) ＞ 獅子頭の神、シェセムが、悪人の頭を砕いて、死者のためのワインにしている。悪人と見なされれば、頭をもがれてしまうだろう。【日常】で判定を行う。失敗すると、「重傷2」の変調を受ける。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "CCVT"
+output = "クトゥルフ神群試練表(1) ＞ 新聞記者たちが忙しく行き来しているオフィスにいる。ここは、新聞社アーカムアドバタイザーの編集部だ。「君が大きなニュースを持っていると聞いたんだけれど」記者の一人が尋ねてくる。自分の【真実】が公開されていなければ、「臆病1」の変調を受ける。"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "CCVT"
+output = "クトゥルフ神群試練表(6) ＞ なんの変哲も無い民家にいる。アーカムの静かな風景が……ああ、窓に！窓に！黒の領域にインガを一つ配置する。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "NCVT"
+output = "北欧神群試練表(1) ＞ 美しい乙女が告げる。「あなたはエインヘリアルたる資格がある」どうやら、戦乙女ヴァルキュリャに見初められたらしい。彼女たちは、戦死した者の魂を連れていくのだが。自分は、戦乙女から【想い】を2点獲得する。この【想い】の関係はマイナスの「殺意」となる。"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "NCVT"
+output = "北欧神群試練表(6) ＞ 巨人が話し掛けてくる。「お前に力をやってもいい。代わりに、片目か、片腕をよこせ」オーディンは片目を差し出して、知恵を手に入れた。嘘ではないだろうが……。【生命力】を3D6点減少することで、好きな領域にインガを二つ配置できる。減少しなかった場合、「臆病1」の変調を受ける。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "DGVT"
+output = "ダンジョン試練表(1) ＞ 照明が切れてしまい、暗闇の中に放り出される。前が見えない。白の領域からインガを一つ取り除く。"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "DGVT"
+output = "ダンジョン試練表(6) ＞ 怪物たちのすみかに迷い込んでしまったようだ。怪物が一斉に襲ってくる！【武勇】で判定を行う。失敗すると、2D6点のダメージを受ける。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "DAVT"
+output = "日常試練表(1) ＞ 仲間と移動していると、一般人の友達と偶然出会ってしまう。今何をしているかを聞かれたので、なんとかごまかす。自分に対して【想い】の値を持っているPC全員の属性が反転する。"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "DAVT"
+output = "日常試練表(6) ＞ 乗りたかった電車やバスに乗り遅れる。仕方ないから、走るか。移動判定を行う。失敗すると、「堕落」の変調を受け、もう一度「試練表」を使用する。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "PRCT"
+output = "挑戦テーマ表【武勇】(1) ＞ 腕相撲"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "PRCT"
+output = "挑戦テーマ表【武勇】(6) ＞ 武勇伝自慢"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "TCCT"
+output = "挑戦テーマ表【技術】(1) ＞ 織物"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "TCCT"
+output = "挑戦テーマ表【技術】(6) ＞ 資格自慢"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "INCT"
+output = "挑戦テーマ表【頭脳】(1) ＞ パズル"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "INCT"
+output = "挑戦テーマ表【頭脳】(6) ＞ 学歴自慢"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "PSCT"
+output = "挑戦テーマ表【霊力】(1) ＞ 詩作"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "PSCT"
+output = "挑戦テーマ表【霊力】(6) ＞ のど自慢"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "LVCT"
+output = "挑戦テーマ表【愛】(1) ＞ ナンパ勝負"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "LVCT"
+output = "挑戦テーマ表【愛】(6) ＞ 恋愛自慢"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "DACT"
+output = "挑戦テーマ表【日常】(1) ＞ 料理"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "DACT"
+output = "挑戦テーマ表【日常】(6) ＞ リア充自慢"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RGT"
+output = "ランダムギフト表(1) ＞ ランダムに選んだPCと同じ親神の親神ギフトの中から選ぶ。"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RGT"
+output = "ランダムギフト表(6) ＞ 好きな汎用ギフトの中から選ぶ。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "FBT"
+output = "決戦戦果表(1) ＞ 1D6枚の神貨を獲得する。"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "FBT"
+output = "決戦戦果表(6) ＞ 「ランダムアイテム表」で、アイテムを入手できる。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "CHVT"
+output = "中華神群試練表(1) ＞ たどりついた場所は、桃源郷であった。すべてを忘れて、しばらく楽しんでしまう。年齢が2D6点上昇し、「堕落」の変調を受ける。"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "CHVT"
+output = "中華神群試練表(6) ＞ 麒麟の死骸を発見してしまう。これは、不吉の前触れだ。黒の領域にインガを一つ配置する。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "LCVT"
+output = "ラストクロニクル神群試練表(1) ＞ レ・ムゥの五色の太陽がすべて輝きを失う「千年夜」の到来を幻視する。これは起こりうる未来なのだろうか……。黒の領域にインガを1つ配置する。"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "LCVT"
+output = "ラストクロニクル神群試練表(6) ＞ 放浪の勇者・アルマイルから挨拶代わりの一撃を受ける。1D6点ダメージを受け、アルマイルからの【想い】が1点上昇する。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "KCVT"
+output = "ケルト神群試練表(1) ＞ 怪物が奏でる銀の竪琴の音色が聞こえてきて、しばらくの間、眠ってしまう。眠っている間に、妖精たちに悪戯された。「恥辱」の変調を受け、アイテムを一つ選んで失う。"
+rands = [
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "KCVT"
+output = "ケルト神群試練表(6) ＞ 道案内をしてくれた美女にそそのかされて、女人の国にたどりついてしまう。誘惑に耐えながら、なんとか脱出する。「堕落」と「臆病2」の変調を受ける。"
+rands = [
+  { sides = 6, value = 6 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "RB+1>3 不要な機能だけど一応実装してみる。"
+output = "(RB+1>3) ＞ [2,4]+1 ＞ 3_실패[2적] / 5_성공[4녹]"
+success = true
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 4 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "SAT"
+output = "店内雰囲気表(12) ＞ 煙草の煙がたゆたうセルフ式コーヒーチェーン店"
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "SAT"
+output = "店内雰囲気表(55) ＞ ショッピングモールのフードコート内にある出店"
+rands = [
+  { sides = 6, value = 5 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "SMT"
+output = "特殊メニュー表(11) ＞ アド・パトレス（ケルト）"
+rands = [
+  { sides = 6, value = 1 },
+  { sides = 6, value = 1 },
+]
+
+[[ test ]]
+game_system = "Amadeus:Korean"
+input = "SMT"
+output = "特殊メニュー表(46) ＞ ジヴァヤ・ヴォジャ（スラブ）"
+rands = [
+  { sides = 6, value = 4 },
+  { sides = 6, value = 6 },
+]
