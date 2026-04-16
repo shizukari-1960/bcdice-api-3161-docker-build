@@ -30,6 +30,7 @@ services:
       - "9292:9292" # left:port for outside connection. right:port inside docker container.
     restart: always
 ```
+If you don't want to expose service to public, set `ports` to `localhost:9292:9292`.
 3.Enable docker-compose service
 ```
 # Linux / Windows with docker desktop
